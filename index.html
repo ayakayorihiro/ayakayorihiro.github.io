@@ -28,25 +28,25 @@
       Zachary Palmer</a>.
     </p>
     <p>
-      <!-- So far the only thing I can confirm about my research interests is that -->
       Some things in Computer Science that fascinate me are
       Programming Languages, Automata Theory, and
       the idea of Undecidability. At Swarthmore, I worked on developing the
       theory and implementation of <i>Plume</i>, a family of program analyses
-      for functional programs that supports set-based and fixed-size
-      list-based context models.
-      Through experimentation focusing on the
-      precision of different program analyses within <i>Plume</i> as well as other
-      state-of-the-art program analyses, we found that when analyzing functional
-      programs, the connection between data flow and control flow should be
-      preserved as much as possible even if it means that both might suffer
-      from some loss of precision.
+      for functional programs that supports not only fixed-size list-based context models,
+      but also a <i>Set-based</i> context model, where control flows are equated with
+      the same set of call sites on the program stack. From experimentation on both 
+      types of context models in various program analyses,
+      we found that the set-based model is tractable and 
+      expressive on representative functional programs for both forward- and demand-driven
+      functional analyses.
     </p>
+    <!-->
     <h2> News </h2>
     <ul>
     <li> I was awarded The John Lockwood Memorial Fellowship by the
       Committee of Fellowships and Prizes at Swarthmore College.</li>
     </ul>
+    <-->
     <h2> Research </h2>
     <h3> Projects </h3>
     <p>
@@ -55,10 +55,10 @@
       applications to Program Analyses. <!-- They can be expressed in grammar form,
       or the equivalent Triangular Trellis Automata. --> As a language class, the Linear
       Conjunctive Languages are incomparable to Context Free Languages.
-      Their significance lies in that they include the set of <i>Dyck
-      Languages</i> (the language of matched parentheses),
-      and that they are closed under intersection. This allows for the
-      program analysis problem of tracking control and data flow to be mapped onto a
+      Their significance lies in that they recognize languages such as the interleaving
+      of <i>Dyck Languages</i> (the language of matched parentheses).
+      This implies that the program analysis problem of tracking control and data flow 
+      to be mapped onto a
       LCL reachability problem. While this implies that LCL reachability is
       undecidable, LCL reachability approximation algorithms allow for a new approach for
       creating more precise Program Analyses.
@@ -92,16 +92,15 @@
     </li>
     <li> I was on the Varsity Tennis team for all four years of my High School
       career, and somehow this surprised all of my friends in College.</li>
-    <li> A nice work-around in pronouncing my last name is to say "You're a hero"
-      fast. </li>
+    <li> My first name can be pronounced like either "eye-AH-ka" or "A-ya-ka", and a nice 
+    work-around in pronouncing my last name is to say "You're a hero" fast. </li>
     <li> If you take the first letter off of my last name, it becomes an element
       of a nonregular language - the language of palindromes!
-      <!-- I figured this one out as I bubbled-in my last name for the SATs.  -->
     </li>
     </ul>
   </div> <!-- End of Main Content -->
   <div class = "footer">
-  <p>Updated June 2020.</p>
+  <p>Updated August 2020.</p>
 </div><!-- End of Footer-->
   </body>
 </html>

@@ -6,7 +6,7 @@ date = 2024-01-01
 - Outside CS, I am a big fan of many things: dogs, the viola, singing,
                board games, baking, memes, the J-POP band [Official
                HIGE DANdism]("https://higedan.com/"), and more!
-               Recently, I've been listening to the artist [Ado](
+               Recently, I've been listening to the brilliant artist [Ado](
                "https://www.universal-music.co.jp/ado/") and reading
                mystery novels by [Keigo
                Higashino]("https://www.goodreads.com/author/show/117366.Keigo_Higashino")

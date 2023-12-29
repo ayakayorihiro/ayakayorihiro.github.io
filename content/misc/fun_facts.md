@@ -18,6 +18,6 @@ date = 2024-01-01
                You can read it [here]("/files/music_senior_comp.pdf").
 - A performance that I did with some very cool people was featured in a [video](https://www.youtube.com/watch?v=Jnkqcm0uvWE) on Swarthmore's youtube channel!
   - The full first movement is featured [here](https://www.swarthmore.edu/living-liberal-arts/fetter-chamber-music-concert), accompanied by a rare publically available picture of me playing a musical instrument.
-- I am one of those people who have perfect pitch, and will tell you that I have perfect pitch whenever I get a chance to do so.
+- I have perfect pitch! This means that I can identify musical notes without any references.
 - I was on the Varsity Tennis team for all four years of high school, and somehow this surprised all of my friends in college.
 - If you take the first letter off of my last name, it becomes an element of a nonregular language - the language of palindromes!

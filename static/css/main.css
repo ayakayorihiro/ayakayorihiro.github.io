@@ -1,33 +1,62 @@
 body {
-  font-family: Didot;
-  background-color: FloralWhite;
-  /* background-color: #fff5d7; */
-  margin-left: 0px;
+  font-family: system-ui;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  background-color: Snow;
+  margin-left: 20px;
   margin-bottom: 0px;
-  margin-right: 0px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+header {
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid CornflowerBlue;
+  margin-left: 0px;
+}
+a:link {
+  color: Indigo;
+}
+a:visited {
+  color: CadetBlue;
+}
+header h1 {
+  white-space: nowrap;
+  display: inline;
+}
+nav {
+    margin-top: 0.75rem;
+    height: 45px;
+    align-items: end;
+}
+a.nav-item {
+    font-variant: small-caps;
+    flex: 2;
+    text-align: center;
+    color: MidnightBlue;
+    margin: 17px 8px 0 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none
 }
 h1 {
   margin: 20px;
-  color: Crimson;
-  border-bottom: 1px solid Pink;
+  color: MidnightBlue;
+  /* border-bottom: 1px solid Pink; */
 }
 h2 {
-  color: Crimson;
+  color: DarkBlue;
   border-bottom: 1px solid Pink;
 }
 h3 {
-  color: PaleVioletRed;
+  color: DodgerBlue;
 }
 ul {
   list-style: square;
   line-height: 150%;
-  /* margin: 10px 10px; */
-}
-a:link {
-  color: PaleVioletRed;
-}
-a:visited {
-  color: SteelBlue;
 }
 .basic_info {
   float: left;
@@ -52,12 +81,11 @@ a:visited {
   width: 98%;
   margin-bottom: 2%;
 }
-.footer {
+footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: LightPink;
-  color: white;
+  border-top: 1px solid CornflowerBlue;
   text-align: center;
   padding: 1px;
 }

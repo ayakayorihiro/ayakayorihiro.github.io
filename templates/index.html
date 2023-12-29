@@ -1,10 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- <h1 class="title"> -->
-<!--   Ayaka Yorihiro -->
-<!-- </h1> -->
-<!-- <p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see my posts.</p> -->
 
 <div class = "basic_info">
   <img src="{{ get_url(path='img/crepes_closeup.jpeg')}}" alt = "ayaka_photo">
@@ -69,27 +65,21 @@
     <h2>Posts</h2>
     {% set posts = get_section(path="posts/_index.md") %}
     {% for post in posts.pages %}
-
     <a href="{{ post.permalink | safe }}">{{ post.title }}</a> [{{ post.date | date(format="%b '%y") }}]
     <ul>{{ post.description }}</ul>
-
+    <p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see my other posts.</p>
   {% endfor %}
-
   </div>
 </section>
 
 <section>
   <div class="misc">
     <h2>Miscellaneous</h2>
+    <p>Check out some of my other non-CS related posts <a href="{{ get_url(path='@/misc/_index.md') }}">here</a>!
     {% set fun = get_page(path="misc/fun_facts.md") %}
     <h3>{{ fun.title }}</h3>
     {{ fun.content | safe }}
-    <p>Check out some of my other non-CS related posts <a href="{{ get_url(path='@/misc/_index.md') }}">here</a>!
   </div>
 </section>
-
-<div class = "footer">
-<p>Updated January 2024. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
-</div>
 
 {% endblock content %}

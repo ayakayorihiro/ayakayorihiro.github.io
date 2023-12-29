@@ -8,18 +8,14 @@
 </head>
 
 <body>
-  <div id = "header">
-    <h1>
-      Ayaka Yorihiro
-    </h1>
+  <header>
     <nav>
-      <!-- <a class="nav-item" href="/#research">Research</a> -->
-      <!-- <a class="nav-item" href="/#teaching">Teaching</a> -->
-      <!-- <a class="nav-item" href="/#service">Service</a> -->
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
       <a class="nav-item" href="{{ get_url(path='@/posts/_index.md') }}">Posts</a> <!-- unstyled-link  -->
       <a class="nav-item" href="{{ get_url(path='Ayaka_Yorihiro_CV_Current.pdf') }}">CV</a>
+      <a class="nav-item" href="{{ get_url(path='@/misc/_index.md') }}">Misc</a>
     </nav>
-  </div><!--End of Header-->
+  </header><!--End of Header-->
 
   <section class="section">
     <div class="container">
@@ -27,5 +23,9 @@
     </div>
   </section>
 </body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated January 2024. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+<footer>
 
 </html>

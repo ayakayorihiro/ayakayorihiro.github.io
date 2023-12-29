@@ -1,8 +1,7 @@
 +++
 template = "index.html"
+title = "About"
 +++
-
-# About Me
 
 I am a fourth-year PhD student in the [Department of Computer Science](https://www.cs.cornell.edu/) at [Cornell University](https://www.cornell.edu/) working with [Adrian Sampson]("https://www.cs.cornell.edu/~asampson/") in the [Capra research group]("https://capra.cs.cornell.edu/"). I received a BA in [Computer Science]("https://www.swarthmore.edu/computer-science") and [Music]("https://www.swarthmore.edu/music") from [Swarthmore College]("https://www.swarthmore.edu/") in May 2020, where I was advised by [Zachary Palmer]("https://www.cs.swarthmore.edu/~zpalmer/").
 

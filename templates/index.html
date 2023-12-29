@@ -17,6 +17,7 @@
 <section>
   <div class="bio">
     {% set page = get_page(path="about.md") %}
+    <h2>{{ page.title }}</h2>
     {{ page.content | safe }}
   </div>
 </section>

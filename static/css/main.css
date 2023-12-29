@@ -2,7 +2,7 @@ body {
   font-family: system-ui;
   font-size: 20px;
   text-rendering: optimizeLegibility;
-  background-color: Snow;
+  background-color: Ivory;
   margin: auto;
   width: 75%;
   /* margin-left: 20px; */
@@ -43,6 +43,10 @@ a.nav-item {
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none
+}
+a.nav-item:hover,
+a.nav-item:focus {
+    text-decoration: underline;
 }
 h1 {
   margin: 20px;

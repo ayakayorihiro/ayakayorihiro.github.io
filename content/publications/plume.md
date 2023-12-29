@@ -5,15 +5,17 @@ draft = false
 
 [extra]
 authors = [
-  "Leandro Fachinetti",
-  "Zachary Palmer",
-  "Scott F. Smith",
-  "Ke Wu",
-  "Ayaka Yorihiro"
+  { name = "Leandro Facchinetti", url = "https://leafac.com/"},
+  { name = "Zachary Palmer", url = "https://www.cs.swarthmore.edu/~zpalmer/"},
+  { name = "Scott F. Smith", url = "https://www.cs.jhu.edu/~scott/"},
+  { name = "Ke Wu", url = ""},
+  { name = "Ayaka Yorihiro", url = ""}
 ]
 
 publication = "Asian Symposium on Programming Languages and Systems"
 publication_short = "APLAS"
+publication_url = "https://conf.researchr.org/home/aplas-2020"
 
-pdf = "/files/pubs/plume.pdf"
+pdf = "/files/publications/plume.pdf"
+url = ""
 +++

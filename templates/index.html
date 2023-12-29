@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- <h1 class="title"> -->
+<!--   Ayaka Yorihiro -->
+<!-- </h1> -->
+<!-- <p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see my posts.</p> -->
+
+<div class = "basic_info">
+  <img src="{{ get_url(path='img/crepes_closeup.jpeg')}}" alt = "ayaka_photo">
+  <p> Ayaka Yorihiro (頼廣 采佳) </p>
+  <p> she/her </p>
+  <p> Gates Hall 456 </p>
+  <p> <a href="mailto:ayaka@cs.cornell.edu">ayaka@cs.cornell.edu</a></p>
+  <!-- <p> <a href = "Ayaka_Yorihiro_CV_Current.pdf"> CV </a></p> -->
+  <!-- <p> <a href = "https://twitter.com/ayaka_yourhero"> Twitter </a></p> -->
+</div> <!-- End of basic_info -->
+
+
+<!-- Bio -->
+<section>
+  <div class="bio">
+    {% set page = get_page(path="about.md") %}
+    {{ page.content | safe }}
+  </div>
+
+</section>
+
+<!-- Posts -->
+{% endblock content %}

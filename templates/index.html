@@ -30,7 +30,9 @@
     {% for pub in pubs.pages | sort(attribute="date") | reverse %}
     {# Each publication item. for now I'm making things similar to before #}
     <div>
+      <div>
       <b>{{ pub.title }}</b>, <a href = "{{ pub.extra.publication_url }}">{{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }}</a>.
+      </div>
       <div>
       {% for author in pub.extra.authors %}
       {% if loop.last %}and {% endif %}
@@ -40,7 +42,7 @@
         {%- if author.name == "Ayaka Yorihiro" -%}</b>{%- endif -%}
       {%- if author.url != "" -%}</a>{%- endif -%}
       {% if not loop.last %}, {% else %}.{% endif %}
-      {% endfor %} {{ pub.extra.publication }}.
+      {% endfor %}
       </div>
       [<a href={{ pub.extra.pdf }}>PDF</a>]
       {% if pub.extra.url != "" %}

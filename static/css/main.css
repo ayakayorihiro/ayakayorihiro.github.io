@@ -68,7 +68,7 @@ ul {
 }
 .basic_info img {
   /* Image size changes relative to basic_info */
-  width: 200px;
+  width: 250px;
   display: block;
 }
 .basic_info p {

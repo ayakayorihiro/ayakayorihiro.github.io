@@ -1,10 +1,10 @@
 +++
-title = "Hagan"
+title = "破顔 (Hagan - Breaking into a smile) by Official髭男dism"
 date = 2022-06-22
 description = "A song about appreciating the lives of the people you encounter."
 +++
 
-# 破顔 (Hagan - Breaking into a smile) by Official髭男dism
+[Listen to this song on Youtube](https://www.youtube.com/watch?v=TEKR7K7LbHw).
 
 (Footnotes at the bottom)
 

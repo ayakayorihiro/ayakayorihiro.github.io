@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class = "basic_info">
-  <img src="{{ get_url(path='img/crepes_closeup.jpeg')}}" alt = "ayaka_photo">
+  <img src="{{ get_url(path='img/tall.jpg')}}" alt = "ayaka_photo">
   <p> Ayaka Yorihiro (頼廣 采佳) <br>
   she/her<br>
   Gates Hall 456<br>
@@ -23,7 +23,7 @@
 </section>
 
 <section>
-  <div class="research">
+  <div class="research" id="research">
     <h2>Research</h2>
     <h3>Publications</h3>
     {% set pubs = get_section(path="publications/_index.md") %}
@@ -54,7 +54,7 @@
 </section>
 
 <section>
-  <div class="teaching">
+  <div class="teaching" id="teaching">
     <h2>Teaching Experiences</h2>
     &#127942; indicate course teachings where I won an Outstanding Teaching Award!
     {% set schools = get_section(path="teaching/_index.md") %}

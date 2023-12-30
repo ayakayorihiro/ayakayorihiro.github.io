@@ -11,7 +11,7 @@ header {
   bottom: 0;
   display: flex;
   flex-flow: row wrap;
-  border-bottom: 1px solid CornflowerBlue;
+  border-bottom: 2px solid CornflowerBlue;
   margin-left: 0px;
 }
 a:link {
@@ -21,9 +21,10 @@ a:visited {
   color: CadetBlue;
 }
 header h1 {
+  font-size: 40px;
   white-space: nowrap;
   display: inline;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 nav {
     margin-top: 0.75rem;
@@ -45,7 +46,6 @@ a.nav-item:focus {
     text-decoration: underline;
 }
 h1 {
-  /* margin: 20px; */
   color: MidnightBlue;
 }
 h2 {
@@ -63,7 +63,7 @@ ul {
   display: flex;
   align-items: center;
   margin: 20px;
-  /* margin: 0px 20px 20px 20px; */
+  margin-left: 0px
 }
 .basic_info img {
   /* Image size changes relative to basic_info */
@@ -85,7 +85,11 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid CornflowerBlue;
+  border-top: 2px solid CornflowerBlue;
   text-align: center;
   padding: 1px;
+  font-size: 15px;
+}
+.pub_list {
+  margin-left: 1em;
 }

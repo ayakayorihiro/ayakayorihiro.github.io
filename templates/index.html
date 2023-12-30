@@ -7,7 +7,8 @@
   <p> Ayaka Yorihiro (頼廣 采佳) <br>
   she/her<br>
   Gates Hall 456<br>
-  <a href="mailto:ayaka@cs.cornell.edu">ayaka@cs.cornell.edu</a></p>
+  <a href="mailto:ayaka@cs.cornell.edu">ayaka@cs.cornell.edu</a><br>
+  <a href="https://github.com/ayakayorihiro">Github</a></p>
   <!-- <p> <a href = "Ayaka_Yorihiro_CV_Current.pdf"> CV </a></p> -->
   <!-- <p> <a href = "https://twitter.com/ayaka_yourhero"> Twitter </a></p> -->
 </div> <!-- End of basic_info -->
@@ -33,7 +34,7 @@
       <div>
       <b>{{ pub.title }}</b>, <a href = "{{ pub.extra.publication_url }}">{{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }}</a>.
       </div>
-      <div>
+      <div class="pub_list">
       {% for author in pub.extra.authors %}
       {% if loop.last %}and {% endif %}
       {%- if author.url != "" -%}<a href="{{ author.url }}">{%- endif -%}
@@ -42,12 +43,12 @@
         {%- if author.name == "Ayaka Yorihiro" -%}</b>{%- endif -%}
       {%- if author.url != "" -%}</a>{%- endif -%}
       {% if not loop.last %}, {% else %}.{% endif %}
-      {% endfor %}
-      </div>
+      {% endfor %}<br>
       [<a href={{ pub.extra.pdf }}>PDF</a>]
       {% if pub.extra.url != "" %}
       [<a href={{ pub.extra.url }}>Website</a>]
       {% endif %}
+      </div>
     </div><br>
     {% endfor %}
   </div>

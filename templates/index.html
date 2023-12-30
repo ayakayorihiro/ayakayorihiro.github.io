@@ -94,10 +94,10 @@
 <section>
   <div class="misc">
     <h2>Miscellany</h2>
-    <p>Check out some of my other non-CS related posts <a href="{{ get_url(path='@/misc/_index.md') }}">here</a>!
     {% set fun = get_page(path="misc/fun_facts.md") %}
     <h3>{{ fun.title }}</h3>
     {{ fun.content | safe }}
+    <p>Check out some of my other non-CS related posts <a href="{{ get_url(path='@/misc/_index.md') }}">here</a>!
   </div>
 </section>
 

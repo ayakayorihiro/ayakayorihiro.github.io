@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+
+<!-- Fun facts -->
+{% set fun = get_page(path="misc/fun_facts.md") %}
+<h3>{{ fun.title }}</h3>
+<div>
+{{ fun.content | safe }}
+</div>
+
+
+<!-- Translations -->
+{% set trans = get_section(path="misc/translations/_index.md") %}
+<h3>{{ trans.title }}</h3>
+<div class="description">
+{{ trans.description }}
+</div>
+<div>
+  {% for page in trans.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <div class = "indented">{{ page.description }}</div>
+  </li>
+  {% endfor %}
+</div>
+<br>
+{% endblock content %}

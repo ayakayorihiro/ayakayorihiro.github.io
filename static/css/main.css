@@ -2,7 +2,7 @@ body {
   font-family: system-ui;
   font-size: 20px;
   text-rendering: optimizeLegibility;
-  background-color: Snow;
+  background-color: rgb(240, 248, 255, 0.3);
   margin: auto;
   width: 75%;
 }
@@ -15,10 +15,10 @@ header {
   margin-left: 0px;
 }
 a:link {
-  color: Indigo;
+  color: SteelBlue;
 }
 a:visited {
-  color: CadetBlue;
+  color: Indigo;
 }
 header h1 {
   font-size: 40px;
@@ -46,6 +46,7 @@ a.nav-item:focus {
     text-decoration: underline;
 }
 h1 {
+  font-size: 30pt;
   color: MidnightBlue;
 }
 h2 {
@@ -90,6 +91,16 @@ footer {
   padding: 1px;
   font-size: 15px;
 }
+.indented {
+    margin-left: 1em;
+}
 .pub_list {
   margin-left: 1em;
+}
+.title {
+    margin-bottom: 0px;
+}
+.description {
+    color: DarkSlateGray;
+    margin-bottom: 1.5em;
 }

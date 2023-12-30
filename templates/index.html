@@ -32,7 +32,7 @@
     {# Each publication item. for now I'm making things similar to before #}
     <div>
       <div>
-      <b>{{ pub.title }}</b>, <a href = "{{ pub.extra.publication_url }}">{{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }}</a>.
+      <b>{{ pub.title }}</b>. <a href = "{{ pub.extra.publication_url }}">({{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }})</a>
       </div>
       <div class="pub_list">
       {% for author in pub.extra.authors %}
@@ -57,7 +57,7 @@
 <section>
   <div class="teaching" id="teaching">
     <h2>Teaching Experiences</h2>
-    &#127942; indicate course teachings where I won an Outstanding Teaching Award!
+    &#127942; are courses where I won an Outstanding Teaching Award!
     {% set schools = get_section(path="teaching/_index.md") %}
     {% for school in schools.pages | sort(attribute="date") | reverse %}
     <h3>{{ school.title }}</h3>
@@ -77,19 +77,23 @@
 
 <section>
   <div class="posts">
-    <h2>Posts</h2>
+    <h2>Featured Posts</h2>
     {% set posts = get_section(path="posts/_index.md") %}
     {% for post in posts.pages %}
+    {%- if post.extra.featured -%}
     <a href="{{ post.permalink | safe }}">{{ post.title }}</a> [{{ post.date | date(format="%b '%y") }}]
-    <ul>{{ post.description }}</ul>
-    <p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see my other posts.</p>
+    <div class="indented">
+    {{ post.description }}
+    </div>
+    {%- endif -%}
+    <p>Check out the rest of my posts <a href="{{ get_url(path='@/posts/_index.md') }}">here</a>!</p>
   {% endfor %}
   </div>
 </section>
 
 <section>
   <div class="misc">
-    <h2>Miscellaneous</h2>
+    <h2>Miscellany</h2>
     <p>Check out some of my other non-CS related posts <a href="{{ get_url(path='@/misc/_index.md') }}">here</a>!
     {% set fun = get_page(path="misc/fun_facts.md") %}
     <h3>{{ fun.title }}</h3>

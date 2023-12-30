@@ -3,7 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  {% if page.title %}
+  <title>{{ page.title }} | Ayaka Yorihiro</title>
+  {% else %}
   <title>Ayaka Yorihiro - Cornell University</title>
+  {% endif %}
+  <link rel="icon" href={{ get_url(path="img/favicon.png")}} type="image/png">
   <link href={{ get_url(path="css/main.css")}} type= "text/css" rel = "stylesheet">
 </head>
 

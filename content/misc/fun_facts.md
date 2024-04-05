@@ -3,15 +3,17 @@ title = "Fun Facts"
 date = 2024-01-01
 +++
 
-- Outside CS, I am a big fan of many things: dogs, the viola, singing,
-               board games, baking, memes, the J-POP band [Official
-               HIGE DANdism](https://higedan.com/), and more!
-               Recently, I've been listening to the brilliant artist [Ado](
-               https://www.universal-music.co.jp/ado/) and reading
-               mystery novels by [Keigo
+- Outside CS, I am a big fan of many things: dogs and cats, the viola,
+               singing, J-POP, board games, baking, memes, and more!
+               Specifically, I enjoy listening to the wonderful band
+               [Official HIGE DANdism](https://higedan.com/) and the
+               brilliant artist [Ado](
+               https://www.universal-music.co.jp/ado/). These days,
+               I'm reading mystery novels by [Keigo
                Higashino](https://www.goodreads.com/author/show/117366.Keigo_Higashino)
                and [Miyuki
                Miyabe](https://en.wikipedia.org/wiki/Miyuki_Miyabe).
+
 - My undergrad thesis in Music was written about Johann Nepomuk Hummel,
   a composer contemporary of Beethoven, and his role in cultivating the
   improvisatory *Fantasie* and *Potpourri* musical genres.

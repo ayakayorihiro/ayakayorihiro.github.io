@@ -7,7 +7,7 @@ date = 2024-01-01
                singing, J-POP, board games, baking, memes, and more!
                Specifically, I enjoy listening to the wonderful band
                [Official HIGE DANdism](https://higedan.com/) and the
-               brilliant artist [Ado](
+               brilliant singer [Ado](
                https://www.universal-music.co.jp/ado/). These days,
                I'm reading mystery novels by [Keigo
                Higashino](https://www.goodreads.com/author/show/117366.Keigo_Higashino)

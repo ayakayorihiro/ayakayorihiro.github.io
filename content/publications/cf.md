@@ -15,6 +15,6 @@ publication = "Workshop on Open-Source Design Automation"
 publication_short = "OSDA"
 publication_url = "https://rv23.csd.auth.gr/"
 
-pdf = "/files/publications/emop.pdf"
-url = "https://github.com/SoftEngResearch/emop"
+pdf = ""
+url = ""
 +++

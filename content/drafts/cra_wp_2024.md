@@ -20,11 +20,11 @@ topics, such as soft skills. (Usually when you meet researchers
 outside of your program, it's at a technical conference, and you talk
 about cool research)
 
-If you are a grad student looking for opportunities to get grad school
-advice and meet cool computing researchers (grad students, faculty,
-industry researchers) outside of your sub-field of CS/IS/etc, this is
-a great one! I hope this post encourages you to apply for the next
-cycle :)
+If you are a grad student (MS or PhD) looking for opportunities to get
+grad school advice and meet cool computing researchers (grad students,
+faculty, industry researchers) outside of your sub-field of
+computing-related research, this is a great one! I hope this post
+encourages you to apply for the next cycle :)
 
 ## What is the CRA-WP Grad Cohort for Women?
 

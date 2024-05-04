@@ -55,7 +55,7 @@ wonderful mentors at Swarthmore. Last summer, as I was going through
 an especially tough time in my PhD, Vasanta recommended me to join
 groups such as the CRA-WP. She emphasized the importance of having a
 strong academic support system, and getting advice from many different
-people. This point was very compelling to me.
+people. These points were very compelling to me.
 
 A couple of months after hearing about CRA-WP, I ended up making a
 large turn in my academic life. I already felt that attending the
@@ -71,20 +71,110 @@ of being an academic :)
 
 ## What was it like?
 
+The workshop spanned across three days. The first day had a welcome
+reception, the second day was the main event, and the third day was
+half talks and half 1-1 meetings. The organizers posted a specific
+schedule on the [event
+website](https://web.cvent.com/event/af32de64-9853-4aff-a0c9-b0dc590dd1e8/summary),
+which can still be accessed.
 
-As an aside, LinkedIn's (maybe new) QR-code functionality made it *extremely* easy to connect with people :)
+I firmly believe that the gems hiding in every conference are the 1-1,
+or small group interactions. To that end, I definitely met my goal of
+meeting a lot of wonderful people! From having an assigned hotel
+roommate and making friends through ridesharing from the airport, to
+meeting new people through discussion groups during lunch, the
+workshop gave me plenty of opportunities to meet new people. Moreover,
+everyone that I talked to was very friendly and nice. Surprisingly, I
+found a mix between early- and late-stage graduate students within the
+attendees (note: MS students are also eligible for this workshop. If
+you're an MS student looking to decide whether to continue to a PhD,
+this workshop may be helpful since you can hear about current PhD
+students' experiences). Given the nature of the workshop, I really
+thought that most of the attendees would be early-stage PhD students,
+so this was a pleasant surprise.
 
+Even more surprisingly, the majority of people that I met were those
+that I don't think I would've met otherwise. Most of the folks were
+working on research outside of my areas, as I only met a handful of
+researchers working in Programming Languages, Software Engineering, or
+Computer Architecture. While it may have been nice to meet more people
+I could have had technical discussions with, I think the purpose of
+the workshop was more to have more general conversations about
+research/PhD life. Plus, there are often more opportunities to meet
+people who work on your area of research, by way of technical
+conferences. As an aside, LinkedIn's (maybe new) QR-code functionality
+made it *extremely* easy to connect with people :)
 
-- Surprsingly a mix of both early PhD and late PhD (I really thought everyone there was gonna be a 1st yr)
-- People at this conference are really nice.
-- Lots of people outside my fields
+I also want to highlight the talks, which were given by professors and
+experienced researchers in industry, and touched on many common grad
+school themes: finding research topics, work-life balance, submitting
+papers, and more. I really appreciated the panel on "Strategies for
+Human-Human Interaction," which focused on how to navigate difficult
+spaces/interactions as part of an underrepresented group in computing.
+My favorite talk was the third day's talk on "Storytelling For
+Powerful Communication," which focused on how to tell a general story.
+I learned that it's helpful to do toungue-twisters before giving a
+talk so you focus on dictation, and using present tense lets the
+audience "experience" the story better, among other things.
+Storytelling also shows up in many places within CS research and
+academia: paper writing, job interviews, teaching, etc.
+
+<!-- The main event day's late afternoon consisted of poster sessions,
+which I signed up to present a poster about planned future work.
+Presenters were grouped into groups of 5-6 based on research areas,
+and we spent ~10 minutes (split between presentation and Q&A) on each
+poster.
+
 - Talks were helpful in remembering some meta-principles about grad school
 - 1-1 interactions were the most fun part
 - Poster presentations
 - Favorite session was the storytelling one
+-->
 
-## Takeaways
+## Reflection & Takeaways
 
+This workshop was a valuable experience to me mainly by being a *safe
+space* to share grad school experiences with a wide range of people.
+Personally, I think the fact that I was able to have deeper
+conversations with people I just met was very special (though one
+could argue that it's actually easier to share details with
+strangers).
+
+It's often said that grad school is a difficult time for everyone. I
+was really pleasantly surprised to learn that I shared many themes
+with others who attended. Even more surprisingly, people were willing
+to share the experiences they had, and empathize with the experiences
+I went through. I saw this in a multi-hour conversation I had with a
+new mentor, in people chiming in during the Q&A portion of the
+Human-Human interaction panel, in lunch discussions, and hallway
+conversations I had with esteemed professors. When enough people talk
+about similar themes, be it multiple paper rejections or difficulties
+with work-life balance or administrative nightmares, it really brings
+a feeling of empowerment to the room. I felt like I brought a lot of
+insecurities to this workshop, and left many of them behind when I
+left. And for me, that was really the big win of this workshop.
+
+<!--But, I thought what makes grad school so difficult is that
+everyone goes through *different* experiences.-->
+
+One point I'd like to make though, is that I honestly wish I knew
+about this workshop earlier. A lot of the advice I heard through the
+three days were not new, and there were a lot of things that Ayaka
+from a year ago would have benefitted much more from. So, I think this
+workshop may be more useful to early-stage grad students than
+late-stage ones. That being said, it's always better late than never!
+I still think I got valuable experiences out of this workshop, and I'm
+really glad I went.
+
+I'd like to say thank you to everyone who I met in those three days,
+and to all of the organizers! It was a pleasure to meet you all and
+share our grad school stories.
+
+Lastly, if you are eligible and haven't been to Grad Cohort yet, I
+hope this post encouraged you to apply!
+
+<!--
 0. It's nice to have a space where you can be more vulnerable with people.
 1. Sharing experiences is empowering
 2. Making new friends is fun!
+-->

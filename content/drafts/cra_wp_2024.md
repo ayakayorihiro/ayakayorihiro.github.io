@@ -1,6 +1,6 @@
 +++
 title = "2024 CRA-WP Grad Cohort for Women Report"
-date = 2024-05-01
+date = 2024-05-10
 description = "Fourth-year grad student attends grad-school-meta-event to gain wisdom and make friends."
 [extra]
 featured = true
@@ -14,8 +14,8 @@ the [Grad Cohort Workshop for IDEALS (Inclusion, Diversity, Equity,
 Accessibility, and Leadership
 Skills)](https://cra.org/cra-wp/grad-cohort-ideals/). This was a great
 opportunity to meet wonderful computing researchers in both academia
-and industry. Most importantly, this is a chance to talk with
-researchers *outside* your graduate program about *meta*-grad-school
+and industry. Most importantly, this was a chance to talk with
+researchers *outside* my graduate program about *meta*-grad-school
 topics, such as soft skills. (Usually when you meet researchers
 outside of your program, it's at a technical conference, and you talk
 about cool research)
@@ -30,9 +30,8 @@ encourages you to apply for the next cycle :)
 
 The [CRA-WP](https://cra.org/cra-wp/) is a committee within the CRA
 (Computing Research Association) that aims to increase participation
-in computing research from underrepresented populations in computing.
-You can read more about their goals
-[here](https://cra.org/cra-wp/mission/).
+in computing research from underrepresented populations. You can read
+more about their goals [here](https://cra.org/cra-wp/mission/).
 
 The Grad Cohort for Women is a 2-3 day workshop that focuses on grad
 school survival skills, especially how to navigate difficult spaces as
@@ -57,11 +56,11 @@ groups such as the CRA-WP. She emphasized the importance of having a
 strong academic support system, and getting advice from many different
 people. These points were very compelling to me.
 
-A couple of months after hearing about CRA-WP, I ended up making a
-large turn in my academic life. I already felt that attending the
-workshop and getting advice would be really helpful... But this big
-change made it seem like I had *even more* of a need to gain wisdom
-from senior researchers and expand my support group.
+A couple of months after hearing about CRA-WP, I made a big switch in
+my research directions. I already felt that attending the workshop and
+getting advice would be really helpful... But now I felt even more of
+a need to gain wisdom from senior researchers and expand my support
+group, so I can succeed at my new research.
 
 Lastly, I thought it'll be good to leave the Ithaca bubble for a
 couple of days. As much as I love all the nature in Ithaca and my
@@ -80,28 +79,28 @@ which can still be accessed.
 
 I firmly believe that the gems hiding in every conference are the 1-1,
 or small group interactions. To that end, I definitely met my goal of
-meeting a lot of wonderful people! From having an assigned hotel
-roommate and making friends through ridesharing from the airport, to
-meeting new people through discussion groups during lunch, the
-workshop gave me plenty of opportunities to meet new people. Moreover,
-everyone that I talked to was very friendly and nice. Surprisingly, I
-found a mix between early- and late-stage graduate students within the
-attendees (note: MS students are also eligible for this workshop. If
-you're an MS student looking to decide whether to continue to a PhD,
-this workshop may be helpful since you can hear about current PhD
-students' experiences). Given the nature of the workshop, I really
-thought that most of the attendees would be early-stage PhD students,
-so this was a pleasant surprise.
+meeting a lot of wonderful people! From assigning me a hotel roommate
+and encouraging people to rideshare from the airport, to setting up
+discussion groups during lunch, the workshop gave me plenty of
+opportunities to meet new people. <!-- Moreover, everyone that I
+talked to was very friendly and nice. --> Surprisingly, I found a mix
+between early- and late-stage graduate students within the attendees
+(note: MS students are also eligible for this workshop. If you're an
+MS student looking to decide whether to continue to a PhD, this
+workshop may be helpful since you can hear about current PhD students'
+experiences). Given the nature of the workshop, I really thought that
+most of the attendees would be early-stage PhD students, so this was a
+pleasant surprise.
 
 Even more surprisingly, the majority of people that I met were those
 that I don't think I would've met otherwise. Most of the folks were
 working on research outside of my areas, as I only met a handful of
 researchers working in Programming Languages, Software Engineering, or
 Computer Architecture. While it may have been nice to meet more people
-I could have had technical discussions with, I think the purpose of
-the workshop was more to have more general conversations about
-research/PhD life. Plus, there are often more opportunities to meet
-people who work on your area of research, by way of technical
+to have technical discussions with, I think the purpose of the
+workshop was more to have more general conversations about
+research/grad school life. Plus, there are often more opportunities to
+meet people who work on your area of research, by way of technical
 conferences. As an aside, LinkedIn's (maybe new) QR-code functionality
 made it *extremely* easy to connect with people :)
 
@@ -140,38 +139,49 @@ conversations with people I just met was very special (though one
 could argue that it's actually easier to share details with
 strangers).
 
-It's often said that grad school is a difficult time for everyone. I
-was really pleasantly surprised to learn that I shared many themes
-with others who attended. Even more surprisingly, people were willing
-to share the experiences they had, and empathize with the experiences
-I went through. I saw this in a multi-hour conversation I had with a
-new mentor, in people chiming in during the Q&A portion of the
-Human-Human interaction panel, in lunch discussions, and hallway
-conversations I had with esteemed professors. When enough people talk
-about similar themes, be it multiple paper rejections or difficulties
-with work-life balance or administrative nightmares, it really brings
-a feeling of empowerment to the room. I felt like I brought a lot of
-insecurities to this workshop, and left many of them behind when I
-left. And for me, that was really the big win of this workshop.
+It's often said that everyone has a difficult time in grad school.
+But, I find it hard to describe (in a nutshell) how difficult grad
+school is because everyone's grad school experiences are so different.
+Through this workshop, I was reminded that there are common *themes*
+shared between our experiences. Despite coming from different
+backgrounds (both as people and as researchers), there were many
+subtle commonalities between our individual hopes, successes, and
+struggles.
 
-<!--But, I thought what makes grad school so difficult is that
-everyone goes through *different* experiences.-->
+I was only able to come to this realization because people were
+willing to share the experiences they had, and empathize with the
+experiences I went through. I saw this willingness in a multi-hour
+conversation I had with a new mentor, in people chiming in during the
+Q&A portion of the Human-Human interaction panel, in lunch
+discussions, hallway conversations I had with esteemed professors, and
+more. When enough people talk about similar themes, be it multiple
+paper rejections or difficulties with work-life balance or
+administrative nightmares, I found that it brings a feeling of
+empowerment to the room. And this feeling of empowerment, along with
+peoples' willingness to be vulnerable, only existed because the
+workshop was a safe space.
 
-One point I'd like to make though, is that I honestly wish I knew
-about this workshop earlier. A lot of the advice I heard through the
-three days were not new, and there were a lot of things that Ayaka
-from a year ago would have benefitted much more from. So, I think this
-workshop may be more useful to early-stage grad students than
-late-stage ones. That being said, it's always better late than never!
-I still think I got valuable experiences out of this workshop, and I'm
-really glad I went.
+Ultimately, I felt like I brought a lot of insecurities to this
+workshop, and left many of them behind when I left. And for me, that
+was a really big win.
+
+That being said, I want to say that I honestly wish I knew about this
+workshop earlier. A lot of the advice I heard through the three days
+were not new, and there were a lot of things that Ayaka from a year
+ago would have benefitted much more from. So, I think this workshop
+may be more useful to early-stage grad students than late-stage
+students. That being said, it's always better late than never! I still
+think I got valuable experiences out of this workshop, and I'm really
+glad I went.
 
 I'd like to say thank you to everyone who I met in those three days,
 and to all of the organizers! It was a pleasure to meet you all and
 share our grad school stories.
 
 Lastly, if you are eligible and haven't been to Grad Cohort yet, I
-hope this post encouraged you to apply!
+hope this post encouraged you to apply!<!-- The Grad Cohort website
+contains more information about the event, as well as slides from
+previous events, so I recommend you check it out. -->
 
 <!--
 0. It's nice to have a space where you can be more vulnerable with people.

@@ -160,12 +160,12 @@ nightmares, I found that it brings a feeling of empowerment to the
 room. And this feeling of empowerment, along with peoples' willingness
 to be vulnerable, only existed because the workshop was a safe space.
 
-Ultimately, I felt like I brought a lot of insecurities to this
-workshop, and left many of them behind when I left. And for me, that
+Ultimately, I felt like I brought a lot of imposter syndrome to this
+workshop, and left a lot of it behind when I left. And for me, that
 was a really big win.
 
 That being said, I honestly wish I knew about this workshop earlier. A
-lot of the advice I heard through the three days were not new, and
+lot of the advice I heard during the three days were not new, and
 there were a lot of advice that Ayaka from a year ago would have
 benefitted much more from. So, I think this workshop may be more
 useful to early-stage grad students than late-stage students. That

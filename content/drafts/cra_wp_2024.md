@@ -153,26 +153,24 @@ willing to share the experiences they had, and empathize with the
 experiences I went through. I saw this willingness in a multi-hour
 conversation I had with a new mentor, in people chiming in during the
 Q&A portion of the Human-Human interaction panel, in lunch
-discussions, hallway conversations I had with esteemed professors, and
-more. When enough people talk about similar themes, be it multiple
-paper rejections or difficulties with work-life balance or
-administrative nightmares, I found that it brings a feeling of
-empowerment to the room. And this feeling of empowerment, along with
-peoples' willingness to be vulnerable, only existed because the
-workshop was a safe space.
+discussions, hallway conversations I had with professors, and more.
+When enough people talk about similar themes, be it multiple paper
+rejections or difficulties with work-life balance or administrative
+nightmares, I found that it brings a feeling of empowerment to the
+room. And this feeling of empowerment, along with peoples' willingness
+to be vulnerable, only existed because the workshop was a safe space.
 
 Ultimately, I felt like I brought a lot of insecurities to this
 workshop, and left many of them behind when I left. And for me, that
 was a really big win.
 
-That being said, I want to say that I honestly wish I knew about this
-workshop earlier. A lot of the advice I heard through the three days
-were not new, and there were a lot of things that Ayaka from a year
-ago would have benefitted much more from. So, I think this workshop
-may be more useful to early-stage grad students than late-stage
-students. That being said, it's always better late than never! I still
-think I got valuable experiences out of this workshop, and I'm really
-glad I went.
+That being said, I honestly wish I knew about this workshop earlier. A
+lot of the advice I heard through the three days were not new, and
+there were a lot of advice that Ayaka from a year ago would have
+benefitted much more from. So, I think this workshop may be more
+useful to early-stage grad students than late-stage students. That
+being said, it's always better late than never! I still think I got
+valuable experiences out of this workshop, and I'm really glad I went.
 
 I'd like to say thank you to everyone who I met in those three days,
 and to all of the organizers! It was a pleasure to meet you all and

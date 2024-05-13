@@ -1,6 +1,6 @@
 +++
 title = "2024 CRA-WP Grad Cohort for Women Report"
-date = 2024-05-10
+date = 2024-05-13
 description = "Fourth-year grad student attends grad-school-meta-event to gain wisdom and make friends."
 [extra]
 featured = true
@@ -24,7 +24,8 @@ If you are a grad student (MS or PhD) looking for opportunities to get
 grad school advice and meet cool computing researchers (grad students,
 faculty, industry researchers) outside of your sub-field of
 computing-related research, this is a great one! I hope this post
-encourages you to apply for the next cycle :)
+encourages you to apply to the next cycle of either the Grad Cohort
+for Women or the Grad Cohort for IDEALS :)
 
 ## What is the CRA-WP Grad Cohort for Women?
 
@@ -107,16 +108,24 @@ made it *extremely* easy to connect with people :)
 I also want to highlight the talks, which were given by professors and
 experienced researchers in industry, and touched on many common grad
 school themes: finding research topics, work-life balance, submitting
-papers, and more. I really appreciated the panel on "Strategies for
-Human-Human Interaction," which focused on how to navigate difficult
-spaces/interactions as part of an underrepresented group in computing.
-My favorite talk was the third day's talk on "Storytelling For
-Powerful Communication," which focused on how to tell a general story.
-I learned that it's helpful to do toungue-twisters before giving a
-talk so you focus on dictation, and using present tense lets the
-audience "experience" the story better, among other things.
-Storytelling also shows up in many places within CS research and
-academia: paper writing, job interviews, teaching, etc.
+papers, and more. I really appreciated the panel on ["Strategies for
+Human-Human
+Interaction"](https://cra.org/cra-wp/wp-content/uploads/sites/8/2024/04/CRA-WP-2024-Strategies-for-Human-Human-Interaction.pptx.pdf)
+by [Cynthia
+Phillips](https://www.sandia.gov/ccr/staff/cynthia-ann-phillips/),
+[Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), [Joyce
+Croft](https://www.linkedin.com/in/joycecroft/), and [Shiva
+Darian](https://smdarian.github.io/), which focused on how to navigate
+difficult spaces/interactions as part of an underrepresented group in
+computing. My favorite talk was the third day's talk on ["Storytelling
+For Powerful
+Communication"](https://cra.org/cra-wp/wp-content/uploads/sites/8/2024/04/PPT-Storytelling-for-Powerful-Communicatio-M.Zohn_.pptx.pdf)
+by [Margie Zohn](https://zohncoaching.com/) which focused on how to tell a
+general story. I learned that it's helpful to do toungue-twisters
+before giving a talk so you focus on dictation, and using present
+tense lets the audience "experience" the story better, among other
+things. Storytelling also shows up in many places within CS research
+and academia: paper writing, job interviews, teaching, etc.
 
 <!-- The main event day's late afternoon consisted of poster sessions,
 which I signed up to present a poster about planned future work.

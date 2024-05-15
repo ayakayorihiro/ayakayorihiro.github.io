@@ -88,8 +88,8 @@
     {{ post.description }}
     </div>
     {%- endif -%}
+    {% endfor %}
     <p>Check out the rest of my posts <a href="{{ get_url(path='@/posts/_index.md') }}">here</a>!</p>
-  {% endfor %}
   </div>
 </section>
 

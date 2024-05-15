@@ -13,7 +13,7 @@ authors = [
 
 publication = "Workshop on Open-Source Design Automation"
 publication_short = "OSDA"
-publication_url = "https://rv23.csd.auth.gr/"
+publication_url = "https://osda.ws/"
 
 pdf = ""
 url = ""

@@ -38,7 +38,7 @@ I think I was set up to have a slightly easier experience than past summer grad 
 
 [CS2110](https://classes.cornell.edu/browse/roster/SU24/class/CS/2110) is Cornell's Data Structures course, and often the second class students take after Intro to CS. Some unique topics in CS2110 are Loop Invariants, GUIs in Java (using Swing), and Concurrency.
 
-The summer version of CS2110 is only six weeks long, compared to the 14+ weeks during the semester. Classes were held Monday-Friday for 1hr45min (more on this later). This meant that the class was very fast-paced - students had less time between classes and assignments. But, students usually only take up to two courses in the summer, so I heard that they enjoyed being able to focus on the class. This short-but-intensive summer period had similar pros and cons for me as the instructor. *Teaching during the summer was a LOT of work, but I'm REALLY glad I had the chance to just focus on teaching for a short amount of time.*
+The summer version of CS2110 is only six weeks long, compared to the 14+ weeks during the semester. Classes were held Monday-Friday for 1hr45min (more on this later). This meant that the class was very fast-paced - students had less time between classes and assignments. But, students usually only take up to two courses in the summer, so I heard that they enjoyed being able to focus on the class. This short-but-intensive summer period had similar pros and cons for me as the instructor. *Teaching during the summer was a LOT of work, but I'm really glad I had the chance to ONLY focus on teaching for a SHORT amount of time.*
 
 ### Special Thanks
 

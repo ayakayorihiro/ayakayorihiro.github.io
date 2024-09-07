@@ -40,15 +40,6 @@ I think I was set up to have a slightly easier experience than past summer grad 
 
 The summer version of CS2110 is only six weeks long, compared to the 14+ weeks during the semester. Classes were held Monday-Friday for 1hr45min (more on this later). This meant that the class was very fast-paced - students had less time between classes and assignments. But, students usually only take up to two courses in the summer, so I heard that they enjoyed being able to focus on the class. This short-but-intensive summer period had similar pros and cons for me as the instructor. *Teaching during the summer was a LOT of work, but I'm really glad I had the chance to ONLY focus on teaching for a SHORT amount of time.*
 
-### Special Thanks
-
-My offering of CS2110 wouldn't have been possible (or as great) without the help of many people. Thank you all very much!!
-
-- My TA [Youming Meng](https://denghilbert.github.io/)
-- My mentors [Curran Muhlberger](https://www.cs.cornell.edu/~curran/), [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), [Zachary Palmer](https://www.cs.swarthmore.edu/~zpalmer/), [Dietrich Geisler](https://www.cs.cornell.edu/~dgeisler/), [Alexa VanHattum](https://cs.wellesley.edu/~avh/) who all provided me extremely helpful advice
-- My labmate [Kevin Negy](https://www.cs.cornell.edu/~kevinnegy/) who was also great company as a fellow summer instructor
-- My students who gave me a chance to help them learn CS :)
-
 ## Challenges and Strategies
 
 ### Course/Lecture Prep
@@ -94,3 +85,12 @@ My offering of CS2110 wouldn't have been possible (or as great) without the help
 
 - That being said I was so tired by the end of it that I had to roll around for a week doing nothing
   - Also was very tired in the middle, so I had to learn to spend less prep time/personal time
+
+## Special Thanks
+
+My offering of CS2110 wouldn't have been possible (or as great) without the help of many people. Thank you all very much!!
+
+- My TA [Youming Meng](https://denghilbert.github.io/)
+- My mentors [Curran Muhlberger](https://www.cs.cornell.edu/~curran/), [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), [Zachary Palmer](https://www.cs.swarthmore.edu/~zpalmer/), [Dietrich Geisler](https://www.cs.cornell.edu/~dgeisler/), [Alexa VanHattum](https://cs.wellesley.edu/~avh/) who all provided me extremely helpful advice
+- My labmate [Kevin Negy](https://www.cs.cornell.edu/~kevinnegy/) who was also great company as a fellow summer instructor
+- My students who gave me a chance to help them learn CS :)

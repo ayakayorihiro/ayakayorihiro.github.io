@@ -83,6 +83,7 @@
     {% set posts = get_section(path="posts/_index.md") %}
     {% for post in posts.pages %}
     {%- if post.extra.featured -%}
+    <br>
     <a href="{{ post.permalink | safe }}">{{ post.title }}</a> [{{ post.date | date(format="%b '%y") }}]
     <div class="indented">
     {{ post.description }}

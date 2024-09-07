@@ -15,6 +15,6 @@ publication = "Workshop on Open-Source Design Automation"
 publication_short = "OSDA"
 publication_url = "https://osda.ws/"
 
-pdf = ""
+pdf = "/files/publications/calyx-firrtl.pdf"
 url = ""
 +++

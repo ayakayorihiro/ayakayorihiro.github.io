@@ -9,19 +9,19 @@ short_title = "Teaching SU24"
 
 This past summer (2024), I taught a six-week course on Cornell's [Data Structures and Object Oriented Programming](https://courses.cis.cornell.edu/courses/cs2110/2024su/) class (CS2110). This post is to reflect on my summer and give readers a taste of how summer teaching may go!
 
-**Disclaimer**: This post is more of a summary of thoughts and takeaways than a chronological recalling of events.
+**Disclaimer:** This post is more of a summary of thoughts and takeaways than a chronological recalling of events.
 
 ## Precursors
 
 ### Why did I decide to teach?
 
-Over the course of my academic journey, I've been lucky to have the chance to help students learn computer science. My first experience was as a [Ninja](https://www.swarthmore.edu/computer-science/ninjas) (aka Student Mentor, which sounds less interesting) for Swarthmore's Intro CS class (CS21), where I hosted help sessions in the evenings. I remember absolutely loving the spark that went off the moment a student really grasped a concept they've been struggling with. As a student who also struggled with big-time impostor syndrome (which I still do as a fifth-year PhD student), it was immensely gratifying to see students build up their programming skills and gain confidence in their ability to do CS.
+**TL;DR:** I love helping people learn CS and have been wanting to pursue a career focused on that, and this felt like the next step.
 
-As a TA in grad school, I got the chance to lead discussion sections, where there was a mix of presenting new material and lab work where we helped students work on group activities. At first, I was really nervous about standing in front of students and being responsible for a part of the class. My first discussion section felt like a nightmare! But it was also really exciting to me that I was 
+Over the course of my academic journey, I've been lucky to have the chance to help students learn computer science. My first experience was as a [Ninja](https://www.swarthmore.edu/computer-science/ninjas) (aka Student Mentor, which sounds less interesting) for Swarthmore's Intro CS class (CS21), where I hosted help sessions in the evenings. I remember absolutely loving the spark that went off the moment a student really grasped a concept they've been struggling with. As a student who also struggled with big-time impostor syndrome (which I still do sometimes as a fifth-year PhD student), it was immensely gratifying to see students build up their programming skills and gain confidence in their ability to do CS.
 
-These experiences made me want to go into teaching-focused careers
+As a TA in grad school, I got the chance to lead discussion sections, where there was a mix of presenting new material and lab work where we helped students work on group activities. At first, I was really nervous about standing in front of students and being responsible for a part of the class. But as I went through it a couple of times, I got a bit more used to it, and I knew what to improve upon. Soon enough, discussion section became my favorite part of my work week.
 
-Being the solo instructor of a class felt like the next step. I was again really nervous about . Also, it felt really important to me to know whether being a CS instructor was actually a job I wanted to pursue. It'll be much better to know earlier than 
+These experiences made me want to go into teaching-focused careers such as a Professor at a Small Liberal Arts College (SLAC), or a Lecturer/Teaching faculty at a Research University. Instructing a summer class felt like the next step towards that goal for a couple of reasons: (1) I could actually get a taste of what teaching CS is like, and see whether this was actually a career path that I wanted to take; (2) I can assess whether I was "fit"/"good enough" for such a job, and concretely figure out what I can improve; and (3) having solo instructor experience is important when applying for such jobs (both for the CV and for forming your own opinions about teaching).
 
 <!--
 - I've been considering a teaching-focused job as a career path

@@ -1,6 +1,6 @@
 +++
 title = "So I taught a CS course over the summer..."
-date = 2024-09-20
+date = 2024-09-26
 description = "First-time instructor reflects on her summer teaching Data Structures and Java."
 [extra]
 featured = true
@@ -14,6 +14,7 @@ This past summer (2024), I taught a six-week course on Cornell's [Data Structure
 ### Navigation
 - [Precursors](#precursors)
   - [Why did I decide to teach?](#motivation)
+  - [How did I become an instructor?](#requirements)
   - [Some luck-based advantages I had](#caveats)
   - [What is CS2110? How is it different during the summer?](#cs2110)
 - [Challenges and Strategies](#challenges_and_strategies)
@@ -48,6 +49,13 @@ These experiences made me want to go into teaching-focused careers such as a Pro
   - TA-ing as a grad student: leading discussion sections/recitations
   - These experiences made me want to go into teaching-focused careers, and this felt like the next step
 -->
+
+<a name="requirements"></a>
+### How did I become an instructor?
+
+As I mentioned above, I've always _wanted_ to teach, but one of the reasons I taught this summer (and not before) was that I _wasn't eligible_ to teach! At Cornell (and many other schools), you have to be a "senior PhD student" in order to teach your own class. Often times, this means that you've passed your Candidacy exam.
+
+Usually, these conversations would take place in late fall or early spring before that specific summer. In my case, the department reached out to me and asked if I wanted to teach CS2110 in summer 2024, but I've also expressed interest about summer teaching to them in the past. So, it might be worth putting yourself on the department's radar by talking to them early!
 
 <a name="caveats"></a>
 ### Some luck-based advantages I had

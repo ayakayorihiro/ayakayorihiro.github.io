@@ -92,7 +92,7 @@ The big downside of this approach was that I was starting to spend *too much* ti
 In the second and third weeks of the class, I asked a couple of my mentors to stop by lecture. This was very valuable because my mentors gave me confidence that I was doing some things well, and also pointed out a lot of things that I could improve. For example, my advisor [Adrian Sampson](https://www.cs.cornell.edu/~asampson/) suggested having handouts that students can write notes and draw on, which actually became one of my favorite things to put together in my lecture prep later on. Also, having mentors in the classroom also gave me a first-hand taste of how nerve-wracking teaching interviews might be! :)
 
 <a name="code_demos"></a>
-### Code Demos: Letting go of perfectionism, and why it's actually useful (*AYAKA NOTE: better title for this?*)
+### Code Demos: Letting go of perfectionism, and why it's actually useful
 
 Coding on your own is one thing; coding in front of a group of students is another. For one, you need to *talk* while you are typing, and you need to make sure you aren't going too fast that students are lost. On top of that, you might feel pressure to never mess up. But of course, sometimes you might get lost in the heat of the moment and make a small bug.
 

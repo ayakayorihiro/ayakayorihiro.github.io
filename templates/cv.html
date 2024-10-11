@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  {% if page.title %}
+  <title>{{ page.title }} | Ayaka Yorihiro</title>
+  {% else %}
+  <title>Ayaka Yorihiro - Cornell University</title>
+  {% endif %}
+  <link rel="icon" href={{ get_url(path="img/favicon.png")}} type="image/png">
+  <link href={{ get_url(path="css/main.css")}} type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <div>
+    <h1>Ayaka Yorihiro</h1>
+    <p>PhD Student, Computer Science<br>Cornell University</p>
+  </div> <!-- End of basic_info -->
+
+  <section>
+    <div class="education" id="education">
+      <h2>Education</h2>
+      {% set schools = get_section(path="education/_index.md") %}
+      {% for school in schools.pages | sort(attribute="date") | reverse %}
+      <div>
+	<h3><a href="{{ school.extra.school_url }}">{{ school.title }}</a></h3>
+	<div class = "school_list">
+	  </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  
+  <section>
+    <div class="teaching" id="teaching">
+      <h2>Teaching Experience</h2>
+      {% set schools = get_section(path="teaching/_index.md") %}
+      {% for school in schools.pages | sort(attribute="date") | reverse %}
+      <h3>{{ school.title }}</h3>
+      {{ school.content | safe }}
+      {% endfor %}
+    </div>
+  </section>
+
+</section>
+
+</body>
+
+</html>

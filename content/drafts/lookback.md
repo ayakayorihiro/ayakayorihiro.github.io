@@ -1,5 +1,5 @@
 +++
-title = "Look Back"
+title = "Look Back: A reminder of why we follow our passions"
 date = 2024-10-26
 description = "[Mild Spoilers] A small rant about a beautiful movie about passion, regret, and coming of age."
 [extra]
@@ -23,6 +23,12 @@ Many years pass and an adult Fujino regrets drawing. But, Fujino revisits her sh
 
 ### Thoughts
 
-The story of this 58-minute movie seems so simple when writing out or reading a synopsis, but I think its subtleties are what makes it special.
+The story of this short movie seems so simple when reading or writing out a synopsis, but I think its subtleties are what makes it special. The movie (and its original manga) intentionally minimizes the amount of dialogue to draw their audience inwards through the characters' facial expressions, movement, music, and the silence in between. The silence makes the hard-hitting moments hit even harder, especially in the ending sequence before the absolutely ethereal [theme song](https://www.youtube.com/watch?v=mLu6hZvHRQM) enters. The music also adds to the nostalgic, bittersweet ambience of the film by incorporating timbres like the muted piano or the accordion.
 
-A thing that struck me was the realization that Fujino *isn't the best person*. You find that a lot of her motivations 
+Something that struck me in the movie was just how endearingly flawed Fujino's character was<!--, emphasized by the juxtapositions between Fujino and Kyomoto's motivations for drawing-->. In the beginning, we see that Fujino's motivations often stem from external validation from her family and teachers, and her jealousy towards Kyomoto's stunning artwork. Even in the moment that Fujino picks up drawing again, it's from Kyomoto's stronghearted conviction that Fujino is a manga genius. And while we subtlely understand that these external motivators are probably not the only reasons Fujino takes up drawing manga so passionately, we notice them more. But, it's also not too difficult to understand where Fujino was coming from; after all, she is/was a child who was doing her best.
+
+On the other hand, while Kyomoto started drawing out of boredom, we see that she has a more "pure" passion towards art. Kyomoto not only appreciates Fujino's mangas, but also the field of background art. While she is slower at drawing than Fujino, she produces art that captures the subtleties of the views around her. For Kyomoto, art (and her work with Fujino) also drove her to take a step outside, leave her home, and eventually follow her dreams.
+
+Ultimately, I find myself empathizing with both characters, in both the good and the bad. While I've never been good at art, I found traces of my own past, especially in my discovery and pursuit of Computer Science, in Fujino's proud feelings of being the "best artist on the block", her fear of being compared and deemed as secondary, her burst of happiness after finding a friend who admires her work, and some of her ultimate regret (that I can't talk about because spoilers). At the same time, I also find myself remembering how my path in learning Computer Science has lead me to take on new challenges, just like Kyomoto was lead by her art to confront her fear of leaving her home. And somewhere deep inside, there's an appreciation and a reason why I'm doing what I do every day. All of these feelings and memories exist, and that's what pushes me forward.
+
+One of the most notable sequences of the film start with Fujino complaining about how difficult the process of producing manga is, and how it's just easier to read manga than produce it. Kyomoto responds to this by asking, "Then why do you draw, Fujino?"

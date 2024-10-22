@@ -9,7 +9,7 @@ short_title = "Look Back"
 
 [Look Back](https://gkids.com/films/look-back/) is a beautiful coming-of-age movie about two girls who share a passion in drawing. The movie is based on the critically acclaimed one-shot manga written by [Tatsuki Fujimoto](https://en.wikipedia.org/wiki/Tatsuki_Fujimoto) in 2021. This 58-minute short movie somehow moved me so much that I (someone who doesn't watch movies too often) went back to theaters a second time to bawl my eyes out, and am writing a blog post about it now. I believe the movie speaks to artists, creators, or maybe anyone who's been passionate or ambitious, and helps them *look back* upon their motivations, joys, and pains of passion.
 
-**Note: This post contains mild spoilers about the movie Look Back [[Trailer](https://www.youtube.com/watch?v=H6HOnlTnVwc)]. The film is out of theaters in the US but not on streaming yet, so if it sounds interesting I'd suggest reading the original manga or waiting a couple of months.**
+**Note: This post contains mild spoilers about the movie Look Back [[Trailer](https://www.youtube.com/watch?v=H6HOnlTnVwc)]. The film will start streaming on Amazon Prime on November 7th, 2024, so if it sounds interesting please go check it out!**
 
 ### Brief synopsis (mild spoilers)
 

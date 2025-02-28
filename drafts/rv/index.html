@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>What is Runtime Verification? | Ayaka Yorihiro</title>
+  
+  <link rel="icon" href=https://ayakayorihiro.github.io/img/favicon.png type="image/png">
+  <link href=https://ayakayorihiro.github.io/css/main.css type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
+      <a class="nav-item" href="/#research">Research</a>
+      <a class="nav-item" href="/#teaching">Teaching</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/posts/">Posts</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/misc/">Misc</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/Ayaka_Yorihiro_CV_Current.pdf">CV</a>
+    </nav>
+  </header><!--End of Header-->
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+  What is Runtime Verification?
+</h1>
+<div class="description">
+A little primer on one of my old research topics<br>
+<strong>January 19, 2025</strong>
+</div>
+
+<div class="post">
+<p>Outline:</p>
+<ul>
+<li>Disclaimers: will mostly describe RV a la JavaMOP bc that's what I'm familiar with</li>
+<li>Intro: Defining Runtime Verification (also called Runtime Monitoring)
+<ul>
+<li>While the program is running, check whether specifications are met.</li>
+<li>Reason why it's called &quot;verification&quot; is bc theoretically you can recover after failure. So your programs will &quot;always be correct&quot;.
+<ul>
+<li>Realistically (or often in JavaMOP), you raise an alarm when specs are violated so that the programmer can fix bugs later.</li>
+</ul>
+</li>
+<li>Draw funky RV + DUT box picture</li>
+<li>Why is RV cool?
+<ul>
+<li>Formal verification vs testing
+<ul>
+<li>Formal verification: correctness guarantees via proving, but difficult to adopt in practice</li>
+<li>Testing: no guarantees since we can only check outputs, but easy to adopt in practice</li>
+<li>RV: the specific program execution we check is correct</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>An example where we find a bug
+<ul>
+<li><code>iterator_has_next</code></li>
+<li>draw and explain monitor FSM</li>
+<li>might be worth writing out the trace (alluding to trace slicing without actually defining it)</li>
+</ul>
+</li>
+<li>Usefulness of RV (ASE '16)
+<ul>
+<li>Adding RV to the testing process!</li>
+</ul>
+</li>
+<li>Open challenges and techniques (ASE '16)
+<ul>
+<li>Scaling
+<ul>
+<li>eMOP</li>
+<li>Kevin's work</li>
+</ul>
+</li>
+<li>Specification writing + quality
+<ul>
+<li>Will hopefully have a followup blog post about DSI!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>More resources
+<ul>
+<li>Cornell SE</li>
+<li><a href="https://www.cs.cornell.edu/courses/cs6156/2020fa/">CS6156</a></li>
+<li>RV textbook?</li>
+<li>RV conference
+<ul>
+<li>Other cool work: RV theory (hyperproperties), Cyberphysical systems</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated September 2024. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+</footer>
+
+</html>

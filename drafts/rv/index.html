@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>What is Runtime Verification? | Ayaka Yorihiro</title>
+  
+  <link rel="icon" href=https://ayakayorihiro.github.io/img/favicon.png type="image/png">
+  <link href=https://ayakayorihiro.github.io/css/main.css type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
+      <a class="nav-item" href="/#research">Research</a>
+      <a class="nav-item" href="/#teaching">Teaching</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/posts/">Posts</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/misc/">Misc</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/Ayaka_Yorihiro_CV_Current.pdf">CV</a>
+    </nav>
+  </header><!--End of Header-->
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+  What is Runtime Verification?
+</h1>
+<div class="description">
+A little primer on one of my old research topics<br>
+<strong>January 19, 2025</strong>
+</div>
+
+<div class="post">
+<p>Outline:</p>
+<ul>
+<li>Disclaimers: will mostly describe RV a la JavaMOP bc that's what I'm familiar with</li>
+<li>More resources
+<ul>
+<li>Cornell SE</li>
+<li><a href="https://www.cs.cornell.edu/courses/cs6156/2020fa/">CS6156</a></li>
+<li>RV textbook?</li>
+<li>RV conference
+<ul>
+<li>Other cool work: RV theory (hyperproperties), Cyberphysical systems</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>You wouldn't verify a runtime. lol</p>
+<p><img src="../../img/rv/meme.jpeg" alt="meme" /></p>
+<h2 id="what-is-runtime-verification">What is Runtime Verification?</h2>
+<ul>
+<li>Intro: Defining Runtime Verification (also called Runtime Monitoring)
+<ul>
+<li>While the program is running, check whether specifications are met.</li>
+<li>Reason why it's called &quot;verification&quot; is bc theoretically you can recover after failure. So your programs will &quot;always be correct&quot;.
+<ul>
+<li>Realistically (or often in JavaMOP), you raise an alarm when specs are violated so that the programmer can fix bugs later.</li>
+</ul>
+</li>
+<li>Draw funky RV + DUT box picture</li>
+<li>Why is RV cool?
+<ul>
+<li>Formal verification vs testing
+<ul>
+<li>Formal verification: correctness guarantees via proving, but difficult to adopt in practice</li>
+<li>Testing: no guarantees since we can only check outputs, but easy to adopt in practice</li>
+<li>RV: the specific program execution we check is correct</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="why-runtime-verification">Why Runtime Verification?</h3>
+<p><img src="../../img/rv/fv-rv-testing.jpg" alt="Comparing Formal Verification, Runtime Verification, and Testing" /></p>
+<p><em>I think I need to write some stuff about what it means to establish correctness. Formal guarantee means across ALL executions of the program, the program does what it is supposed to do</em></p>
+<p>Runtime Verification sits in a sweet spot where it can offer <em>some</em> formal guarantees, while also having the flexibility to apply to more number of, and bigger programs. Two other prevalent ways to assess correctness of a program are <strong>Formal Verification</strong> and <strong>Testing</strong>. On one hand, formally verifying your code involves constructing a mathematical proof of the correctness of your program. This is the closest to being absolutely sure that your program is correct, but it also involves an expensive process and building background in theorem proving tools. On the other hand, we can test our program by feeding inputs and comparing outputs with expected ones. Testing is relatively less difficult than formally verifying, since we only have to consider the inputs and outputs. We also have testing frameworks and automatic test generators that can help us run and write tests for many programs. But testing never <em>proves</em> correctness (without giving infinite inputs and outputs, which we cannot do), and we only see the end points of our program. Due to its ease, testing is the de-facto standard way of quality assurance/correctness checking, but what if we still wanted more <em>formal</em> guarantees about our code?</p>
+<p>In Runtime Verification, you provide a set of specifications. The specifications reason about the internals of your program, not just the input and output. Since it's a dynamic analysis, it will only apply to one execution at a time and hence not give you the full guarantees that formal verification does. But, you get more guarantees about the correctness of your program than simply testing does.<!-- Since RV simply needs executions, why not use the inputs used by your unit tests?--></p>
+<h2 id="an-example">An example</h2>
+<ul>
+<li>An example where we find a bug
+<ul>
+<li><code>iterator_has_next</code></li>
+<li>draw and explain monitor FSM</li>
+<li>might be worth writing out the trace (alluding to trace slicing without actually defining it)</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-specification">A specification</h3>
+<h2 id="runtime-verification-in-practice">Runtime Verification in Practice</h2>
+<h3 id="usefulness-of-rv">Usefulness of RV</h3>
+<ul>
+<li>Usefulness of RV (ASE '16)
+<ul>
+<li>Adding RV to the testing process!</li>
+</ul>
+</li>
+</ul>
+<h3 id="open-challenges-and-techniques">Open challenges and techniques</h3>
+<!--
+- Open challenges and techniques (ASE '16)
+  - Scaling
+    - eMOP
+    - Kevin's work
+  - Specification writing + quality
+    - Will hopefully have a followup blog post about DSI!
+-->
+<p>For more information, check out <a href="https://www.cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf"><em>How Good Are the Specs? A Study of the Bug-Finding Effectiveness of Existing Java API Specifications</em></a> (Legunsen et al., ASE 2016).</p>
+
+</div>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated September 2024. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+</footer>
+
+</html>

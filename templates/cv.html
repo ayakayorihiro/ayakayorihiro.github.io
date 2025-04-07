@@ -26,6 +26,11 @@
       <div>
 	<h3><a href="{{ school.extra.school_url }}">{{ school.title }}</a></h3>
 	<div class = "school_list">
+	  {% if school.extra.current_degree %}
+	  {{ school.extra.current_degree }}<br>
+	  {% endif %}
+	  {{ school.extra.degree }}<br>
+	  Advisor: {{ school.extra.advisor }}
 	  </div>
       </div>
       {% endfor %}

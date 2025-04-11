@@ -73,7 +73,14 @@ In Runtime Verification, you provide a set of specifications. The specifications
 - Usefulness of RV (ASE '16)
   - Adding RV to the testing process!
 
+
 ### Open challenges and techniques
+
+**Specifications**: As with many specification-reliant tools, RV quality depends on the specifications that are used. A large question then is, *who writes and validates these specifications?* Writing specifications
+
+**Speeding up RV**:
+
+One dimension we can consider improving performance is reducing the amount of testing + RV needed based on code updates. Software Development cycles often employ Continuous Integration (CI), where tests are executed after every commit to a repository. We implemented [eMOP](https://github.com/SoftEngResearch/emop) in Java, which you can read about it more in our [paper](/files/publications/emop.pdf).
 
 <!--
 - Open challenges and techniques (ASE '16)

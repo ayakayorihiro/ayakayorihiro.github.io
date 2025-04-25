@@ -1,17 +1,19 @@
 +++
 title = "What is Runtime Verification?"
-date = 2025-01-19
-description = "A little primer on one of my old research topics"
+date = 2025-05-02
+description = "A little overview on one of my old research topics"
 [extra]
 featured = true
 short_title = "RV"
 +++
 
-You wouldn't verify a runtime. lol
-
 <img src="../../img/rv/meme.jpeg" alt="Meme" width="600"/>
 
-**Disclaimers**: Runtime Verification, also referred to as Runtime Monitoring, is a broad term that means different things to different people. Additionally, there are various Runtime Verification systems and paradigms. In this blog post I will be referring to Runtime Verification a la the JavaMOP framework ([paper](https://fsl.cs.illinois.edu/publications/jin-meredith-lee-rosu-2012-icse.pdf), [Github](https://github.com/runtimeverification/javamop)) and its usage with Java unit tests, where my expertise in the area primarily comes from.
+This post is meant to be the first in a series of blog posts about **Runtime Verification**. 
+
+### Disclaimers
+
+Runtime Verification, also referred to as Runtime Monitoring, is a broad term that means different things to different people. Additionally, there are various Runtime Verification systems and paradigms. In this blog post I will be referring to Runtime Verification a la the JavaMOP framework ([paper](https://fsl.cs.illinois.edu/publications/jin-meredith-lee-rosu-2012-icse.pdf), [Github](https://github.com/runtimeverification/javamop)) and its usage with Java unit tests, where my expertise in the area primarily comes from.
 
 ## What is Runtime Verification (RV)?
 
@@ -33,7 +35,7 @@ In a normal program execution, our program takes in an input and produces an out
 
 <img src="../../img/rv/rved-program.jpg" alt="Program Execution with Runtime Verification" width="1000"/>
 
-However, RV offers a way to *probe* the black box, and "see" the internals of the program process. RV can be considered a wrapper 
+However, RV offers a way to *probe* the black box, and "see" the internals of the program process. RV can be considered a wrapper around your program execution. It takes in a *specification(s)* written in formalisms such as Linear Temporal Logic. The specifications establish properties that you want your program to abide by. For example, a specification may say that a `setup()` function always ought to be called before a `process()` function. RV takes in these properties, and produces *monitors*, labeled with "M" in the diagram. These monitors are extra functions that attach themselves to definitions of the functions of interest. During runtime, the monitors will check whether the specification is held true. If a monitor detects that a specification was violated, for example `process()` was called without a preceding call to `setup()`, then it fires a *violation*, which indicates the location of code where the specification was violated.
 
 Some technicalities:
 - RV is called Runtime _Verification_ because of the principle that a RV system can help the subject execution _recover_ from violations that it discovers. When an execution recovers from a buggy state, it would be "correct", hence the system "verifies" the correctness of the execution. In practice, when a violation occurs, an alarm is raised to indicate to the user the location of a likely bug. But, all of this is up to the user and the specifications they pass to the RV system.
@@ -50,54 +52,14 @@ Some technicalities:
       - RV: the specific program execution we check is correct
 -->
 
-![Comparing Formal Verification, Runtime Verification, and Testing](../../img/rv/fv-rv-testing.jpg)
+<img src="../../img/rv/fv-rv-testing.jpg" alt="Comparing Formal Verification, Runtime Verification, and Testing" width="1000"/>
 
+<!--
 *I think I need to write some stuff about what it means to establish correctness. Formal guarantee means across ALL executions of the program, the program does what it is supposed to do*
+-->
+
+Establishing the correctness of your program is no easy task. Often times when we write a piece of code and see that "it works", all that it means is that we have a hightened confidence in our program. Most likely, there are still bugs hiding in the background.
 
 Runtime Verification sits in a sweet spot where it can offer _some_ formal guarantees, while also having the flexibility to apply to more number of, and bigger programs. Two other prevalent ways to assess correctness of a program are **Formal Verification** and **Testing**. On one hand, formally verifying your code involves constructing a mathematical proof of the correctness of your program. This is the closest to being absolutely sure that your program is correct, but it also involves an expensive process and building background in theorem proving tools. On the other hand, we can test our program by feeding inputs and comparing outputs with expected ones. Testing is relatively less difficult than formally verifying, since we only have to consider the inputs and outputs. We also have testing frameworks and automatic test generators that can help us run and write tests for many programs. But testing never _proves_ correctness (without giving infinite inputs and outputs, which we cannot do), and we only see the end points of our program. Due to its ease, testing is the de-facto standard way of quality assurance/correctness checking, but what if we still wanted more _formal_ guarantees about our code?
 
-In Runtime Verification, you provide a set of specifications. The specifications reason about the internals of your program, not just the input and output. Since it's a dynamic analysis, it will only apply to one execution at a time and hence not give you the full guarantees that formal verification does. But, you get more guarantees about the correctness of your program than simply testing does.<!-- Since RV simply needs executions, why not use the inputs used by your unit tests?-->
-
-## An example
-
-- An example where we find a bug
-  - `iterator_has_next`
-  - draw and explain monitor FSM
-  - might be worth writing out the trace (alluding to trace slicing without actually defining it)
-
-### A specification
-
-## Runtime Verification in Practice
-
-### Usefulness of RV
-- Usefulness of RV (ASE '16)
-  - Adding RV to the testing process!
-
-
-### Open challenges and techniques
-
-**Specifications**: As with many specification-reliant tools, RV quality depends on the specifications that are used. A large question then is, *who writes and validates these specifications?* Writing specifications
-
-**Speeding up RV**:
-
-One dimension we can consider improving performance is reducing the amount of testing + RV needed based on code updates. Software Development cycles often employ Continuous Integration (CI), where tests are executed after every commit to a repository. We implemented [eMOP](https://github.com/SoftEngResearch/emop) in Java, which you can read about it more in our [paper](/files/publications/emop.pdf).
-
-<!--
-- Open challenges and techniques (ASE '16)
-  - Scaling
-    - eMOP
-    - Kevin's work
-  - Specification writing + quality
-    - Will hopefully have a followup blog post about DSI!
--->
-
-For more information, check out [_How Good Are the Specs? A Study of the Bug-Finding Effectiveness of Existing Java API Specifications_](https://www.cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf) (Legunsen et al., ASE 2016).
-
-## More Resources
-- More resources
-  - Cornell SE
-  - [CS6156](https://www.cs.cornell.edu/courses/cs6156/2020fa/)
-  - RV textbook?
-  - Wikipedia is surprisingly verbose
-  - RV conference
-    - Other cool work: RV theory (hyperproperties), Cyberphysical systems
+In Runtime Verification, you provide a set of specifications, which can reason about the internals of your program, not just the input and output. Since it's a dynamic analysis, it will only apply to one execution at a time and hence not give you the full guarantees that formal verification does. But, you get more guarantees about the correctness of your program than simply testing does. A violation can also be more helpful than a failing test since it indicates the precise location of code where the specification was violated.

@@ -24,7 +24,7 @@
       {% set schools = get_section(path="education/_index.md") %}
       {% for school in schools.pages | sort(attribute="date") | reverse %}
       <div>
-	<h3><a href="{{ school.extra.school_url }}">{{ school.title }}</a></h3>
+	<h3>{{ school.title }}</h3>
 	<div class = "school_list">
 	  {% if school.extra.current_degree %}
 	  {{ school.extra.current_degree }}<br>
@@ -33,6 +33,32 @@
 	  Advisor: {{ school.extra.advisor }}
 	  </div>
       </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <div class="publications" id="publications">
+      <h2>Publications</h2>
+      {% set pubs = get_section(path="publications/_index.md") %}
+      {% for pub in pubs.pages | sort(attribute="date") | reverse %}
+    <div>
+      <div>
+      <b>{{ pub.title }}</b>.
+      </div>
+      <div class="pub_list">
+      {% for author in pub.extra.authors %}
+      {% if loop.last %}and {% endif %}
+      {%- if author.url != "" -%}<a href="{{ author.url }}">{%- endif -%}
+        {%- if author.name == "Ayaka Yorihiro" -%}<b>{%- endif -%}
+        {{ author.name }}
+        {%- if author.name == "Ayaka Yorihiro" -%}</b>{%- endif -%}
+      {%- if author.url != "" -%}</a>{%- endif -%}
+      {% if not loop.last %}, {% else %}.{% endif %}
+      {% endfor %}<br>
+      <i>In {{ pub.extra.publication }} (<a href = "{{ pub.extra.publication_url }}">{{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }}</a>)</i>b
+      </div>
+    </div><br>
       {% endfor %}
     </div>
   </section>
@@ -45,6 +71,12 @@
       <h3>{{ school.title }}</h3>
       {{ school.content | safe }}
       {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <div class="awards" id="awards">
+      <h2>Honors and Awards</h2>
     </div>
   </section>
 

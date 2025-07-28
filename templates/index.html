@@ -50,6 +50,9 @@
       {% if pub.extra.url != "" %}
       [<a href={{ pub.extra.url }}>Website</a>]
       {% endif %}
+      {% if pub.extra.docs != "" %}
+      [<a href={{ pub.extra.docs }}>Documentation</a>]
+      {% endif %}
       </div>
     </div><br>
     {% endfor %}

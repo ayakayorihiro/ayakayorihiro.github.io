@@ -16,5 +16,6 @@ publication_short = "OSDA"
 publication_url = "https://osda.ws/"
 
 pdf = "/files/publications/calyx-firrtl.pdf"
+docs = "https://docs.calyxir.org/running-calyx/firrtl.html"
 url = ""
 +++

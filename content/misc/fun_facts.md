@@ -13,6 +13,8 @@ date = 2024-01-01
                Higashino](https://www.goodreads.com/author/show/117366.Keigo_Higashino)
                and [Miyuki
                Miyabe](https://en.wikipedia.org/wiki/Miyuki_Miyabe).
+- I am a member of the wonderful [Ithaca Community Orchestra](https://www.ithacacommunityorchestra.org/)
+  where I've played the viola, the triangle, the güiro, and tom-toms!
 - My undergrad thesis in Music was written about Johann Nepomuk Hummel,
   a composer contemporary of Beethoven, and his role in cultivating the
   improvisatory *Fantasie* and *Potpourri* musical genres.

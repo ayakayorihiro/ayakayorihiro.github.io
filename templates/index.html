@@ -61,7 +61,7 @@
       <div>
       <b>{{ pre.title }}</b>. <a href = "{{ pre.extra.preprint_url }}">(arXiv)</a>
       </div>
-      <div class="pre_list">
+      <div class="pub_list">
       {% for author in pre.extra.authors %}
       {% if loop.last %}and {% endif %}
       {%- if author.url != "" -%}<a href="{{ author.url }}">{%- endif -%}

@@ -53,6 +53,27 @@
       </div>
     </div><br>
     {% endfor %}
+    <h3>Preprint</h3>
+    {% set pres = get_section(path="preprints/_index.md") %}
+    {% for pre in pres.pages | sort(attribute="date") | reverse %}
+    {# Each publication item. for now I'm making things similar to before #}
+    <div>
+      <div>
+      <b>{{ pre.title }}</b>. <a href = "{{ pre.extra.preprint_url }}">(arXiv)</a>
+      </div>
+      <div class="pre_list">
+      {% for author in pre.extra.authors %}
+      {% if loop.last %}and {% endif %}
+      {%- if author.url != "" -%}<a href="{{ author.url }}">{%- endif -%}
+        {%- if author.name == "Ayaka Yorihiro" -%}<b>{%- endif -%}
+        {{ author.name }}
+        {%- if author.name == "Ayaka Yorihiro" -%}</b>{%- endif -%}
+      {%- if author.url != "" -%}</a>{%- endif -%}
+      {% if not loop.last %}, {% else %}.{% endif %}
+      {% endfor %}<br>
+      </div>
+    </div><br>
+    {% endfor %}
   </div>
 </section>
 

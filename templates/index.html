@@ -5,8 +5,9 @@
 <div class = "basic_info">
   <img src="{{ get_url(path='img/tall.jpg')}}" alt = "ayaka_photo">
   <p> Ayaka Yorihiro (頼廣 采佳) <br>
-  she/her<br>
-  Unnamed Bowers Building 460<br>
+    she/her<br>
+  Gates 333 <b>[Spring 2026]</b><br>  
+  Unnamed Bowers Building 460 [PhD Student Office]<br>
   <a href="mailto:ayaka@cs.cornell.edu">ayaka@cs.cornell.edu</a><br>
   <a href="https://github.com/ayakayorihiro">Github</a></p>
   <!-- <p> <a href = "Ayaka_Yorihiro_CV_Current.pdf"> CV </a></p> -->
@@ -20,6 +21,18 @@
     {% set page = get_page(path="about.md") %}
     <h2>{{ page.title }}</h2>
     {{ page.content | safe }}
+  </div>
+</section>
+
+<section>
+  <div class="news">
+    {% set news = get_section(path="news/_index.md") %}
+    <h2>{{ news.title }}</h2>
+    {% for new in news.pages | sort(attribute="date") | reverse %}
+    <div>
+	<b>{{ new.date | date(format="%b '%y") }}</b> <div class="indented"{{ new.content | safe }}</div>
+    </div>
+    {% endfor %}
   </div>
 </section>
 

@@ -3,7 +3,7 @@ title = "Remembering Jo sensei"
 date = 2024-08-11
 description = "In honor of a dear mentor who earnestly believed in her students."
 [extra]
-featured = true
+featured = false
 short_title = "Jo sensei"
 +++
 

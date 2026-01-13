@@ -3,7 +3,7 @@ title = "Look Back Review"
 date = 2025-01-19
 description = "[Mild Spoilers] A small rant about a beautiful movie celebrating the joys and pains of passion."
 [extra]
-featured = true
+featured = false
 short_title = "Look Back"
 +++
 

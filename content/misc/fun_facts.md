@@ -4,15 +4,13 @@ date = 2024-01-01
 +++
 
 - Outside CS, I am a big fan of many things: dogs and cats, the viola,
-               singing, J-POP, board games, baking, memes, and more!
+               singing, J-POP, tennis, badminton, baking, and more!
                Specifically, I enjoy listening to the wonderful band
                [Official HIGE DANdism](https://higedan.com/) and the
                brilliant singer [Ado](
                https://www.universal-music.co.jp/ado/). These days,
                I'm reading mystery novels by [Keigo
-               Higashino](https://www.goodreads.com/author/show/117366.Keigo_Higashino)
-               and [Miyuki
-               Miyabe](https://en.wikipedia.org/wiki/Miyuki_Miyabe).
+               Higashino](https://www.goodreads.com/author/show/117366.Keigo_Higashino)..
 - I am a member of the wonderful [Ithaca Community Orchestra](https://www.ithacacommunityorchestra.org/)
   where I've played the viola, the triangle, the güiro, and tom-toms!
 - My undergrad thesis in Music was written about Johann Nepomuk Hummel,

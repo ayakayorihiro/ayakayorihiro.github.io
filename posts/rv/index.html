@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>What is Runtime Verification? | Ayaka Yorihiro</title>
+  
+  <link rel="icon" href=https://ayakayorihiro.github.io/img/favicon.png type="image/png">
+  <link href=https://ayakayorihiro.github.io/css/main.css type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
+      <a class="nav-item" href="/#research">Research</a>
+      <a class="nav-item" href="/#teaching">Teaching</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/posts/">Posts</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/misc/">Misc</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/Ayaka_Yorihiro_CV_Current.pdf">CV</a>
+    </nav>
+  </header><!--End of Header-->
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+  What is Runtime Verification?
+</h1>
+<div class="description">
+A little overview on one of my old research topics.<br>
+<strong>June 27, 2025</strong>
+</div>
+
+<div class="post">
+<img src="../../img/rv/meme.jpeg" alt="Meme" width="600"/>
+<p>This post is meant to be the first in a series of blog posts about <strong>Runtime Verification</strong>. </p>
+<h3 id="disclaimers">Disclaimers</h3>
+<p>Runtime Verification, also referred to as Runtime Monitoring, is a broad term that means different things to different people. Additionally, there are various Runtime Verification systems and paradigms. In this blog post I will be referring to Runtime Verification a la the JavaMOP framework (<a href="https://fsl.cs.illinois.edu/publications/jin-meredith-lee-rosu-2012-icse.pdf">paper</a>, <a href="https://github.com/runtimeverification/javamop">Github</a>) and its usage with Java unit tests, where my expertise in the area primarily comes from.</p>
+<h2 id="what-is-runtime-verification-rv">What is Runtime Verification (RV)?</h2>
+<!--
+- Intro: Defining Runtime Verification (also called Runtime Monitoring)
+  - While the program is running, check whether specifications are met.
+  - Reason why it's called "verification" is bc theoretically you can recover after failure. So your programs will "always be correct".
+    - Realistically (or often in JavaMOP), you raise an alarm when specs are violated so that the programmer can fix bugs later.
+  - Draw funky RV + DUT box picture
+-->
+<p>Runtime Verification (RV) is a <em>dynamic</em> program analysis that checks program executions, often against <em>formally specified properties</em>. In other words, RV involves running a program, and checking information about that execution against specifications on things you want to have always true (or false) about your program. If a specification is <em>violated</em>, then it means that your property was not held by your program, implying the discovery of a bug.</p>
+<p>To draw this out in a diagram...</p>
+<img src="../../img/rv/normal-program.jpg" alt="(Normal) Program Execution" width="1000"/>
+<p>In a normal program execution, our program takes in an input and produces an output. But, we don't necessarily know what is happening in the program itself. We can use debuggers, <code>printf</code> debugging, or logging to obtain information about program state, but we don't necessarily have a quick way to discern whether the <em>process</em> (i.e. the series of steps) is correct. Because of this, in normal program execution, we consider the program itself as a black box.</p>
+<img src="../../img/rv/rved-program.jpg" alt="Program Execution with Runtime Verification" width="1000"/>
+<p>However, RV offers a way to <em>probe</em> the black box, and &quot;see&quot; the internals of the program process.</p>
+<p>For example, a very basic form of RV is the <code>assert</code> statement in Python and other languages. To describe in some pseudocode:</p>
+<pre><code>fn max(input):
+  assert(input is not empty) &#x2F;&#x2F; inserted code to check property
+  ... &#x2F;&#x2F; logic to compute max
+</code></pre>
+<p>Here, we are trying to hold the property that the caller of <code>max()</code> passes in a nonempty <code>input</code>. When we run the code, the <code>assert</code> statement checks our property at the beginning of <code>max()</code>'s execution, so that the following logic can assume that the input is not empty. If <code>input</code> is actually empty at this point in our execution, the <code>assert</code> statement raises a violation, indicating to the user that there is a bug in the program. The violation shares the stack trace, helping the user identify the likely bug location as well.</p>
+<h3 id="an-rv-framework">An RV framework</h3>
+<p>In the above example, we had to insert the <code>assert</code> statement ourselves. An RV framework helps with the process by automatically inserting <code>assert</code>-like checks in the program <em>at runtime</em> so we don't have to edit the original program ourselves. On top of that, the RV framework can help check more interesting properties.</p>
+<p>The RV framework can be considered a wrapper around your program execution. It takes in a <em>specification(s)</em> written in formalisms such as Linear Temporal Logic that establish properties that you want your program to abide by. For example, a specification may say that a <code>setup()</code> function always ought to be called before a <code>process()</code> function. RV takes in these properties, and produces <em>monitors</em>, labeled with &quot;M&quot; in the diagram. These monitors are extra functions (just like the <code>assert()</code>) that attach themselves to definitions of the functions of interest. During runtime, the monitors will check whether the specification is held true. If a monitor detects that a specification was violated, for example <code>process()</code> was called without a preceding call to <code>setup()</code>, then it fires a <em>violation</em>, which indicates the location of code where the specification was violated.</p>
+<p>Some technicalities:</p>
+<ul>
+<li>RV is called Runtime <em>Verification</em> because of the principle that a RV system can help the subject execution <em>recover</em> from violations that it discovers. When an execution recovers from a buggy state, it would be &quot;correct&quot;, hence the system &quot;verifies&quot; the correctness of the execution. In practice, when a violation occurs, an alarm is raised to indicate to the user the location of a likely bug. But, all of this is up to the user and the specifications they pass to the RV system.</li>
+<li>In JavaMOP, the analysis will be done <em>while</em> the program is running (called online monitoring), but there are also variants of RV that output execution information to logs and do the checking separately (called offline monitoring).</li>
+</ul>
+<h3 id="why-runtime-verification">Why Runtime Verification?</h3>
+<!--
+  - Why is RV cool?
+    - Formal verification vs testing
+      - Formal verification: correctness guarantees via proving, but difficult to adopt in practice
+      - Testing: no guarantees since we can only check outputs, but easy to adopt in practice
+      - RV: the specific program execution we check is correct
+-->
+<img src="../../img/rv/fv-rv-testing.jpg" alt="Comparing Formal Verification, Runtime Verification, and Testing" width="800"/>
+<!--
+*I think I need to write some stuff about what it means to establish correctness. Formal guarantee means across ALL executions of the program, the program does what it is supposed to do*
+-->
+<p>Establishing the correctness of your program is no easy task. Often times when we write a piece of code and see that &quot;it works&quot;, all that it means is that we have a hightened confidence in our program. Most likely, there are still bugs hiding in the background.</p>
+<p>Runtime Verification sits in a sweet spot where it can offer <em>some</em> formal guarantees, while also having the flexibility to apply to more number of, and bigger programs. Two other prevalent ways to assess correctness of a program are <strong>Formal Verification</strong> and <strong>Testing</strong>. On one hand, formally verifying your code involves constructing a mathematical proof of the correctness of your program. This is the closest to being absolutely sure that your program is correct, but it also involves an expensive process and building background in theorem proving tools. On the other hand, we can test our program by feeding inputs and comparing outputs with expected ones. Testing is relatively less difficult than formally verifying, since we only have to consider the inputs and outputs. We also have testing frameworks and automatic test generators that can help us run and write tests for many programs. But testing never <em>proves</em> correctness (without giving infinite inputs and outputs, which we cannot do), and we only see the end points of our program. Due to its ease, testing is the de-facto standard way of quality assurance/correctness checking, but what if we still wanted more <em>formal</em> guarantees about our code?</p>
+<p>In Runtime Verification, you provide a set of specifications, which can reason about the internals of your program, not just the input and output. Since it's a dynamic analysis, it will only apply to one execution at a time and hence not give you the full guarantees that formal verification does. But, you get more guarantees about the correctness of your program than simply testing does. A violation can also be more helpful than a failing test since it indicates the precise location of code where the specification was violated.</p>
+<h3 id="more-resources">More resources</h3>
+<p>If you found this post and RV interesting, you might want to check out these other resources:</p>
+<ul>
+<li><a href="https://www.cs.cornell.edu/courses/cs6156/2020fa/">Cornell's course on RV, CS6156</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Runtime_verification">The Runtime Verification Wikipedia page</a></li>
+<li>The conference <a href="https://rv25.isec.tugraz.at/">Runtime Verification</a></li>
+</ul>
+
+</div>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated January 2026. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+</footer>
+
+</html>

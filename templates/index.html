@@ -47,7 +47,7 @@
     <h3>Publications</h3>
     {% set pubs = get_section(path="publications/_index.md") %}
     {% for pub in pubs.pages | sort(attribute="date") | reverse %}
-    {# Each publication item. for now I'm making things similar to before #}
+    {# Each publication item. for now making things similar to before #}
     <div>
       <div>
       <b>{{ pub.title }}</b>. <a href = "{{ pub.extra.publication_url }}">({{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }})</a>
@@ -74,7 +74,7 @@
     <h3>Preprint</h3>
     {% set pres = get_section(path="preprints/_index.md") %}
     {% for pre in pres.pages | sort(attribute="date") | reverse %}
-    {# Each publication item. for now I'm making things similar to before #}
+    {# Each publication item. for now making things similar to before #}
     <div>
       <div>
       <b>{{ pre.title }}</b>. <a href = "{{ pre.extra.preprint_url }}">(arXiv)</a>
@@ -92,6 +92,13 @@
       </div>
     </div><br>
     {% endfor %}
+    <h3>Mentoring</h3>
+    {# FIXME: dont hardcode and make an actual markdown file for this #}
+    <p>I currently work with the following wonderful undergraduate students:</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/ryan-fu-gn1/">Ryan Fu</a></li>
+      <li><a href="https://pedropontesgarcia.com/">Pedro Pontes García</a></li>
+    </ul>
   </div>
 </section>
 

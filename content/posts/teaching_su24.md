@@ -4,7 +4,7 @@ date = 2024-09-26
 description = "First-time instructor reflects on her summer teaching Data Structures and Java."
 [extra]
 featured = true
-short_title = "Teaching SU24"
+short_title = "Teaching CS2110 SU24"
 +++
 
 This past summer (2024), I taught a six-week course on Cornell's [Data Structures and Object Oriented Programming](https://courses.cis.cornell.edu/courses/cs2110/2024su/) class (CS2110). This post is to reflect on my summer and give readers a taste of how summer teaching may go!

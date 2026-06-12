@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>So I taught a CS course over the summer... | Ayaka Yorihiro</title>
+  
+  <link rel="icon" href=https://ayakayorihiro.github.io/img/favicon.png type="image/png">
+  <link href=https://ayakayorihiro.github.io/css/main.css type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
+      <a class="nav-item" href="/#research">Research</a>
+      <a class="nav-item" href="/#teaching">Teaching</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/posts/">Posts</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/misc/">Misc</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/Ayaka_Yorihiro_CV_Current.pdf">CV</a>
+    </nav>
+  </header><!--End of Header-->
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+  So I taught a CS course over the summer...
+</h1>
+<div class="description">
+First-time instructor reflects on her summer teaching Data Structures and Java.<br>
+<strong>September 26, 2024</strong>
+</div>
+
+<div class="post">
+<p>This past summer (2024), I taught a six-week course on Cornell's <a href="https://courses.cis.cornell.edu/courses/cs2110/2024su/">Data Structures and Object Oriented Programming</a> class (CS2110). This post is to reflect on my summer and give readers a taste of how summer teaching may go!</p>
+<p><strong>Note:</strong> This post is more of a summary of thoughts and takeaways than a chronological recalling of events.</p>
+<h3 id="navigation">Navigation</h3>
+<ul>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#precursors">Precursors</a>
+<ul>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#motivation">Why did I decide to teach?</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#requirements">How did I become an instructor?</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#caveats">Some luck-based advantages I had</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#cs2110">What is CS2110? How is it different during the summer?</a></li>
+</ul>
+</li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#challenges_and_strategies">Challenges and Strategies</a>
+<ul>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#analysis_paralysis">Analysis paralysis &amp; Cutting corners</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#copying_to_arranging">From copying to arranging</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#class_observations">Class observations</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#code_demos">Code Demos: Letting go of perfectionism, and why it's actually useful</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#longer_lectures">Aside: A CS2110 Summer 2024 problem - Longer lectures</a></li>
+</ul>
+</li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#takeaways">Takeaways</a>
+<ul>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#fun">Teaching is a lot of fun!</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#personal_takeaways">Personal takeaways</a></li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#commitment">A big commitment</a></li>
+</ul>
+</li>
+<li><a href="https://ayakayorihiro.github.io/posts/teaching-su24/#special_thanks">Special Thanks</a></li>
+</ul>
+<p><a name="precursors"></a></p>
+<h2 id="precursors">Precursors</h2>
+<p><a name="motivation"></a></p>
+<h3 id="why-did-i-decide-to-teach">Why did I decide to teach?</h3>
+<p><strong>TL;DR:</strong> I love helping people learn CS and have been wanting to pursue a career focused on that, and this felt like the next step.</p>
+<p>Over the course of my academic journey, I've been lucky to have the chance to help students learn computer science. My first experience was as a <a href="https://www.swarthmore.edu/computer-science/ninjas">Ninja</a> (aka Student Mentor, which sounds less interesting) for Swarthmore's Intro CS class (CS21), where I hosted help sessions in the evenings. I remember absolutely loving the spark that went off the moment a student grasped a concept they've been struggling with. As a student who also struggled with big-time impostor syndrome (which I still do sometimes as a fifth-year PhD student), it was immensely gratifying to see students build up their programming skills and gain confidence in their ability to do CS.</p>
+<p>As a TA in grad school, I got the chance to lead discussion sections, where there was a mix of presenting new material and lab work where we helped students work on group activities. At first, I was really nervous about standing in front of students and being responsible for a part of the class. But as I went through it a couple of times, I got a bit more used to it, and I knew what to improve upon. Soon enough, discussion sections became my favorite part of my work week.</p>
+<p>These experiences made me want to go into teaching-focused careers such as a Professor at a Small Liberal Arts College (SLAC), or a Lecturer/Teaching faculty at a Research University. Instructing a summer class felt like the next step towards that goal for a couple of reasons: (1) I could actually get a taste of what teaching CS is like, and see whether this was actually a career path that I wanted to take; (2) I can assess whether I was &quot;fit&quot;/&quot;good enough&quot; for such a job, and concretely figure out what I can improve; and (3) having solo instructor experience is important when applying for such jobs (both for the CV and for forming your own opinions about teaching).</p>
+<!--
+- I've been considering a teaching-focused job as a career path
+  - TA-ing as a ugrad (SLAC): "office hours"/help sessions. Helped me realize I like helping ppl debug
+  - TA-ing as a grad student: leading discussion sections/recitations
+  - These experiences made me want to go into teaching-focused careers, and this felt like the next step
+-->
+<p><a name="requirements"></a></p>
+<h3 id="how-did-i-become-an-instructor">How did I become an instructor?</h3>
+<p>As I mentioned above, I've always <em>wanted</em> to teach, but one of the reasons I taught this summer (and not before) was that I <em>wasn't eligible</em> to teach! At Cornell (and many other schools), you have to be a &quot;senior PhD student&quot; in order to teach your own class. Often times, this means that you've passed your Candidacy exam.</p>
+<p>Usually, these conversations would take place in late fall or early spring before that specific summer. In my case, the department reached out to me and asked if I wanted to teach CS2110 in summer 2024, but I've also expressed interest about summer teaching to them in the past. So, it might be worth putting yourself on the department's radar by talking to them early!</p>
+<p><a name="caveats"></a></p>
+<h3 id="some-luck-based-advantages-i-had">Some luck-based advantages I had</h3>
+<p>I think I was set up to have a slightly easier experience than past summer grad student instructors for two reasons. First, I was a teaching assistant for CS2110 during the previous two semesters (FA23, SP24). On top of that, in FA23 I led grading sessions, and in SP24 I outlined future discussion sections during our weekly TA meeting, designed a couple of new discussion sections, and also designed some final exam questions. This meant that I was familiar with both the contents of CS2110 (and Java), but also the grading procedures, expectations, and discussions. Second, I ended up having only <em>ten</em> students. This small class size helped me feel like everything was managable and under control a lot of the time.</p>
+<p><a name="cs2110"></a></p>
+<h3 id="what-is-cs2110-how-is-it-different-during-the-summer">What is CS2110? How is it different during the summer?</h3>
+<p><a href="https://classes.cornell.edu/browse/roster/SU24/class/CS/2110">CS2110</a> is Cornell's Data Structures course, and often the second class students take after Intro to CS. Some unique topics in CS2110 are Loop Invariants, GUIs in Java (using Swing), and Concurrency.</p>
+<p>The summer version of CS2110 is only six weeks long, compared to the 14+ weeks during the semester. Classes were held Monday-Friday for 105 minutes (more on this later). This meant that the class was very fast-paced - students had less time between classes and assignments. But, students usually only take up to two courses in the summer, so I heard that they enjoyed being able to focus on the class. This short-but-intensive summer period had similar pros and cons for me as the instructor. <em>Teaching during the summer was a LOT of work, but I'm really glad I had the chance to ONLY focus on teaching for a SHORT amount of time.</em></p>
+<p><a name="challenges_and_strategies"></a></p>
+<h2 id="challenges-and-strategies">Challenges and Strategies</h2>
+<p><a name="analysis_paralysis"></a></p>
+<h3 id="analysis-paralysis-cutting-corners">Analysis paralysis &amp; Cutting corners</h3>
+<p>I spent two weeks preparing before my first class. I quickly found myself in a lot of analysis paralysis as it dawned on me that I had full freedom to customize this course! The syllabus, the course schedule, how each class goes, the assignments... all of that was under my control. And once I realized this, I simply didn't know where to start. It also didn't help that I felt that I had to do everything perfectly, especially since I felt that my students' quality of education rested within how well I could convey the information in the class.</p>
+<p>Around this time, I got the advice to <strong>cut corners as often as I can by borrowing existing material</strong>. This included borrowing: parts of the syllabus, slides, code demos, assignments, grading rubrics, test questions, and more. The rationale here is to help lift some of my heavy load, and that the execution of the class is already a lot of work. The reality is that it's my first time teaching, which Cornell, my mentors, and my students all know. So, noone really expects me to have all of my own materials together. If I used existing lecture slides and tried to recreate the Spring 2024 lecture experience as much as possible, then I surely can't mess up the students' learning experience too badly right? So, I decided to embrace the &quot;cutting corners&quot; idea, by shamelessly borrowing material wherever I could.</p>
+<p><a name="copying_to_arranging"></a></p>
+<h3 id="from-copying-to-arranging">From copying to arranging</h3>
+<p>For me, the first two weeks of lecture were really about <em>survival</em> (making sure the class actually ran), and getting a feel for how class can/should be run. Following the &quot;cutting corners&quot; idea, I started my lecture prep by quite literally copying slides from Spring 2024, making tiny tweaks, and doing things (nearly) exactly how <a href="https://www.cs.cornell.edu/~curran/">Professor Muhlberger</a> did them. I had access to all of his lecture recordings from being a TA in Spring 2024, which I watched religiously for a while. This was really helpful for giving me some groundwork for concepts that I wasn't 100% sure about. I was still really nervous about explaining concepts incorrectly, and copying materials and lectures gave me a sense of assurance that I won't mess up too much. This strategy also helped me get used to my new <em>professor</em> (wow) role and focus on my speaking skills, like enunciating and speaking slowly.</p>
+<p>The big downside of this approach was that I was starting to spend <em>too much</em> time on lecture prep (~4 hours a day), a large portion of which was watching lecture recordings. I also wanted to experiment and try adding my own spin to things. So, in week 3, I switched to watching recordings only when I needed the extra help on understanding or explaining a concept (like GUIs). I also tried to be creative by thinking about my own analogies for concepts, and adding in new slides. I even made my own &quot;extra recursion practice&quot; lecture, where we reviewed recursion concepts and worked on some practice questions. By switching to arranging my own lectures based on the original slides/code demos, I got myself some more time to sleep and also the chance to try my own things out!</p>
+<p><a name="class_observations"></a></p>
+<h3 id="class-observations">Class observations</h3>
+<p>In the second and third weeks of the class, I asked a couple of my mentors to stop by lecture. This was very valuable because my mentors gave me confidence that I was doing some things well, and also pointed out a lot of things that I could improve. For example, my advisor <a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a> suggested having handouts that students can write notes and draw on, which actually became one of my favorite things to put together in my lecture prep later on. Also, having mentors in the classroom also gave me a first-hand taste of how nerve-wracking teaching interviews might be! :)</p>
+<p><a name="code_demos"></a></p>
+<h3 id="code-demos-letting-go-of-perfectionism-and-why-it-s-actually-useful">Code Demos: Letting go of perfectionism, and why it's actually useful</h3>
+<p>Coding on your own is one thing; coding in front of a group of students is another. For one, you need to <em>talk</em> while you are typing, and you need to make sure you aren't going too fast that students are lost. On top of that, you might feel pressure to never mess up. But of course, sometimes you might get lost in the heat of the moment and make a small bug.</p>
+<p>Counterintuitively, a common piece of advice that I got was that <strong>it's more than ok to make mistakes in code demos sometimes</strong>. My reaction to this was &quot;but wait, as the professor aren't you supposed to be a Smart Computer Scientist That Never Makes Mistakes™!?&quot; But, it's actually really important to (indirectly) teach students that we all make mistakes. Bugs are a common part of coding, after all! Making mistakes and fixing them in class gives students an opportunity to watch your debugging strategies, which they can also adopt in their own coding. I once ended up turning a buggy code demo into a class activity, where students had a chance to try debugging the code we wrote together. I'd like to think this was a valuable experience for both me and my students!</p>
+<p>Of course, you don't want to be making big mistakes all the time. So, I always had a paper copy of my code demos on the side as I was giving the demo, so that I can always have a reference. Also, I made sure to do a dry run of each of my code demos before lecture.</p>
+<p><a name="longer_lectures"></a></p>
+<h3 id="aside-a-cs2110-summer-2024-problem-longer-lectures">Aside: A CS2110 Summer 2024 problem - Longer lectures</h3>
+<p>CS2110 used to be a three-credit class, which meant that summer offerings of the class had 75-minute long lectures. But, CS2110 became a four-credit class in the past year, which meant that my summer lectures were now 105 minutes long! I was really concerned about how to fill those extra 30 minutes. I was advised very specifically to <em>not add any more content, but instead to add more activities</em>. Some other helpful pieces of advice were to <em>insert an 5-10 minute intermission</em> (I think this applies for any class that runs 90 minutes or longer), and to <em>speak slower/take more breaks to check if students have questions</em>.</p>
+<p>So, I needed to figure out what activities to insert. This was another place where &quot;cutting corners&quot; really helped! Many of the code demos in the Spring 2024 lectures involved walking through some pre-written code that implemented an algorithm (I suspect due to time constraints). I decided to turn these code demos into exercises where students can take their own stab at the implementation, before we all got back together and I live coded the solution.</p>
+<p>Ultimately, I was glad to have those 30 more extra minutes. Breaks in the middle gave me a chance to recollect myself and answer students' questions, and the extra time really gave me room to breathe!</p>
+<p><a name="takeaways"></a></p>
+<h2 id="takeaways">Takeaways</h2>
+<p><a name="fun"></a></p>
+<h3 id="teaching-is-a-lot-of-fun">Teaching is a lot of fun!</h3>
+<p>I really had a <em>lot</em> of fun teaching! I always looked forward to another day of class, until the last week when I realized the end was approaching. I felt a sense of fulfillment as I watched my students learn new concepts and improve their coding abilities. Through this experience, I became even more sure about a career path focused on teaching CS.</p>
+<p>An interesting find was that I enjoyed <em>different parts</em> of the teaching experience as I progressed throughout the six-week session. In the beginning, I couldn't believe how giving lecture became so fun once I got past my initial nerves. There's a weirdly unexplainable adrenaline rush that often happened ~10 minutes into lecture, where I find my footing and let it carry me through.<!-- It felt like no matter how sleepy I was, how tired I was, or how sad I may have felt that day, I got to transform into the me that was so excited to teach computer science.--></p>
+<p>Later in the course, as I started to put my own spin to lecture by having handouts, creating new activites, etc, I started to really enjoy the lecture prep process. Teaching class was still really fun, but being creative and experimenting was another, different kind of fun.</p>
+<p><a name="personal_takeaways"></a></p>
+<h3 id="personal-takeaways">Personal takeaways</h3>
+<p>This experience and the feedback that I got from my mentors gave me professional confidence that I can be &quot;good enough&quot; to go into teaching. But more importantly, I got a lot of <em>personal confidence</em> from this experience as well. I knew that this was going to be a challenging summer with lots of <em>new</em> things (especially the &quot;professor&quot; role), so the fact that I successfully did it felt like a big accomplishment! The fact that I was responsible for students' understanding of Data Structures, and they demonstrated to me that they really learned the concepts from class, meant that I was able to make a meaningful contribution to their Computer Science experience. I will always remember that one of my students said this class helped them feel less scared of recursion :)</p>
+<p>As a perfectionist, one of my biggest takeaways was that it's ok to make mistakes, and not just for code demos. I'm just a person doing my best, and sometimes that meant I made mistakes during class, or I had a couple of bugs in an assignment. When students pointed out a mistake, it was embarassing, but as long as I apologized and fixed the problem, it was fine. Of course, it's best to minimize these mistakes as much as possible, but at the end of the day, we recovered from most mistakes, my students still learned Data Structures, and everything was okay.</p>
+<!--
+- Got a lot of confidence not only for being an instructor, but as a person?
+  - big accomplishment
+  - Personally found it really gratifying that students understood what I was teaching
+  - takeaway: it's ok to make mistakes
+  - improv exercise
+-->
+<p><a name="commitment"></a></p>
+<h3 id="a-big-commitment">A big commitment</h3>
+<p>As much as I loved the experience, I cannot end this post without acknowledging how much work summer teaching was. It was in some ways <em>more</em> than a full time job especially because so much of it was new. I spent most of my weekday waking hours on the class. I quickly realized that I needed to prioritize my physical health, since I could feel my energy levels decreasing regardless of the adrenaline rush I was feeling throughout the day. By &quot;cutting corners&quot; to the extreme, I became better at dealing with my workload and procuring time to decompress, but the job was still demanding!</p>
+<p>Once I was fully done with the course, I gave myself a week to <em>do absolutely nothing</em> and that was really helpful. At the end of the day, the work was demanding, but the experience felt very worth it for me because I had <em>a lot</em> of fun. I'd do it again if I had the chance :)</p>
+<p><a name="special_thanks"></a></p>
+<h2 id="special-thanks">Special Thanks</h2>
+<p>My offering of CS2110 wouldn't have been possible without the help of many people. Thank you all very much!!</p>
+<ul>
+<li>My TA <a href="https://denghilbert.github.io/">Youming Deng</a></li>
+<li>My mentors <a href="https://www.cs.cornell.edu/~curran/">Curran Muhlberger</a>, <a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a>, <a href="https://www.cs.swarthmore.edu/~zpalmer/">Zachary Palmer</a>, <a href="https://www.cs.cornell.edu/~dgeisler/">Dietrich Geisler</a>, <a href="https://cs.wellesley.edu/~avh/">Alexa VanHattum</a> who all provided me extremely helpful advice</li>
+<li>My labmate <a href="https://www.cs.cornell.edu/~kevinnegy/">Kevin Negy</a> who was also great company as a fellow summer instructor</li>
+<li>Last and most importantly, my students who gave me a chance to help them learn CS :)</li>
+</ul>
+
+</div>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated January 2026. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+</footer>
+
+</html>

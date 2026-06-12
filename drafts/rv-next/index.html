@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>RV part 2 or 3 or whatever | Ayaka Yorihiro</title>
+  
+  <link rel="icon" href=https://ayakayorihiro.github.io/img/favicon.png type="image/png">
+  <link href=https://ayakayorihiro.github.io/css/main.css type= "text/css" rel = "stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="name"><a class="nav-item" href="/">Ayaka Yorihiro</a></h1>
+      <a class="nav-item" href="/#research">Research</a>
+      <a class="nav-item" href="/#teaching">Teaching</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/posts/">Posts</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/misc/">Misc</a>
+      <a class="nav-item" href="https://ayakayorihiro.github.io/Ayaka_Yorihiro_CV_Current.pdf">CV</a>
+    </nav>
+  </header><!--End of Header-->
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+  RV part 2 or 3 or whatever
+</h1>
+<div class="description">
+A little primer on one of my old research topics<br>
+<strong>January 19, 2025</strong>
+</div>
+
+<div class="post">
+<h2 id="an-example">An example</h2>
+<ul>
+<li>An example where we find a bug
+<ul>
+<li><code>iterator_has_next</code></li>
+<li>draw and explain monitor FSM</li>
+<li>might be worth writing out the trace (alluding to trace slicing without actually defining it)</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-specification">A specification</h3>
+<h2 id="runtime-verification-in-practice">Runtime Verification in Practice</h2>
+<h3 id="usefulness-of-rv">Usefulness of RV</h3>
+<ul>
+<li>Usefulness of RV (ASE '16)
+<ul>
+<li>Adding RV to the testing process!</li>
+</ul>
+</li>
+</ul>
+<h3 id="open-challenges-and-techniques">Open challenges and techniques</h3>
+<p><strong>Specifications</strong>: As with many specification-reliant tools, RV quality depends on the specifications that are used. A large question then is, <em>who writes and validates these specifications?</em> Writing specifications</p>
+<p><strong>Speeding up RV</strong>:</p>
+<p>One dimension we can consider improving performance is reducing the amount of testing + RV needed based on code updates. Software Development cycles often employ Continuous Integration (CI), where tests are executed after every commit to a repository. We implemented <a href="https://github.com/SoftEngResearch/emop">eMOP</a> in Java, which you can read about it more in our <a href="/files/publications/emop.pdf">paper</a>.</p>
+<!--
+- Open challenges and techniques (ASE '16)
+  - Scaling
+    - eMOP
+    - Kevin's work
+  - Specification writing + quality
+    - Will hopefully have a followup blog post about DSI!
+-->
+<p>For more information, check out <a href="https://www.cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf"><em>How Good Are the Specs? A Study of the Bug-Finding Effectiveness of Existing Java API Specifications</em></a> (Legunsen et al., ASE 2016).</p>
+<h2 id="more-resources">More Resources</h2>
+<ul>
+<li>More resources
+<ul>
+<li>Cornell SE</li>
+<li><a href="https://www.cs.cornell.edu/courses/cs6156/2020fa/">CS6156</a></li>
+<li>RV textbook?</li>
+<li>Wikipedia is surprisingly verbose</li>
+<li>RV conference
+<ul>
+<li>Other cool work: RV theory (hyperproperties), Cyberphysical systems</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+<p>Ayaka Yorihiro. Updated January 2026. Built using <a href="https://www.getzola.org/">Zola</a>.</p>
+</footer>
+
+</html>

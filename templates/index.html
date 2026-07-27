@@ -3,12 +3,14 @@
 {% block content %}
 
 <div class = "basic_info">
-  <img src="{{ get_url(path='img/tall.jpg')}}" alt = "ayaka_photo">
+  <img src="{{ get_url(path='img/headshot.png')}}" alt = "ayaka_photo">
   <p> Ayaka Yorihiro (頼廣 采佳) <br>
-  she/her<br>
-  Gates Hall 407<br>
+    she/her<br>
+  Unnamed Bowers Building 460 [PhD Student Office]<br>
   <a href="mailto:ayaka@cs.cornell.edu">ayaka@cs.cornell.edu</a><br>
-  <a href="https://github.com/ayakayorihiro">Github</a></p>
+  <a href="https://github.com/ayakayorihiro">Github</a><br>
+  <br>
+  </p>
   <!-- <p> <a href = "Ayaka_Yorihiro_CV_Current.pdf"> CV </a></p> -->
   <!-- <p> <a href = "https://twitter.com/ayaka_yourhero"> Twitter </a></p> -->
 </div> <!-- End of basic_info -->
@@ -24,12 +26,24 @@
 </section>
 
 <section>
+  <div class="news">
+    {% set news = get_section(path="news/_index.md") %}
+    <h2>{{ news.title }}</h2>
+    {% for new in news.pages | sort(attribute="date") | reverse %}
+    <div>
+	<b>{{ new.date | date(format="%b '%y") }}</b> <div class="indented"{{ new.content | safe }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
   <div class="research" id="research">
     <h2>Research</h2>
     <h3>Publications</h3>
     {% set pubs = get_section(path="publications/_index.md") %}
     {% for pub in pubs.pages | sort(attribute="date") | reverse %}
-    {# Each publication item. for now I'm making things similar to before #}
+    {# Each publication item. for now making things similar to before #}
     <div>
       <div>
       <b>{{ pub.title }}</b>. <a href = "{{ pub.extra.publication_url }}">({{ pub.extra.publication_short }} {{ pub.date | date(format="'%y") }})</a>
@@ -56,6 +70,34 @@
       </div>
     </div><br>
     {% endfor %}
+    <h3>Preprint</h3>
+    {% set pres = get_section(path="preprints/_index.md") %}
+    {% for pre in pres.pages | sort(attribute="date") | reverse %}
+    {# Each publication item. for now making things similar to before #}
+    <div>
+      <div>
+      <b>{{ pre.title }}</b>. <a href = "{{ pre.extra.preprint_url }}">(arXiv)</a>
+      </div>
+      <div class="pub_list">
+      {% for author in pre.extra.authors %}
+      {% if loop.last %}and {% endif %}
+      {%- if author.url != "" -%}<a href="{{ author.url }}">{%- endif -%}
+        {%- if author.name == "Ayaka Yorihiro" -%}<b>{%- endif -%}
+        {{ author.name }}
+        {%- if author.name == "Ayaka Yorihiro" -%}</b>{%- endif -%}
+      {%- if author.url != "" -%}</a>{%- endif -%}
+      {% if not loop.last %}, {% else %}.{% endif %}
+      {% endfor %}<br>
+      </div>
+    </div><br>
+    {% endfor %}
+    <h3>Mentoring</h3>
+    {# FIXME: dont hardcode and make an actual markdown file for this #}
+    <p>I currently work with the following wonderful undergraduate students:</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/ryan-fu-gn1/">Ryan Fu</a></li>
+      <li><a href="https://pedropontesgarcia.com/">Pedro Pontes García</a></li>
+    </ul>
   </div>
 </section>
 
